@@ -1,4 +1,4 @@
-<?php namespace Modules\Izblog\Http\Controllers;
+<?php namespace Modules\IzBlog\Http\Controllers;
 
 use Pingpong\Modules\Routing\Controller;
 

@@ -1,15 +1,26 @@
 {
-	"name": "pingpong-modules/izblog",
+	"name": "vjcspy/izblog",
+	"vendor":"vjcspy",
+	"type": "magento-library",
 	"description": "",
 	"authors": [
 		{
-			"name": "Pingpong Labs",
-			"email": "pingpong.labs@gmail.com"
+			"name": "Khoi Le",
+			"email": "mr.vjcspy@gmail.com"
 		}
 	],
+	"require": {
+		"php": ">=5.5.9"
+	},
 	"autoload": {
 		"psr-4": {
 			"Modules\\IzBlog\\": ""
+		}
+	},
+	"extra": {
+		"installer-name": "IzBlog",
+		"installer-paths": {
+			"modules/{$name}/": ["type:magento-library"]
 		}
 	}
 }

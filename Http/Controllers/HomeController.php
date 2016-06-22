@@ -14,6 +14,8 @@ use Modules\IzCore\Http\Controllers\ThemeAbstractController;
 class HomeController extends ThemeAbstractController {
 
     public function getIndex() {
-        
+        $this->setTheme('frontend.default')->setLayout('home')->setViewFile('post-grid-default');
+
+        return $this->renderHtml();
     }
 }

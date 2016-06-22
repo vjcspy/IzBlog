@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <bower_components>
+        <asset name="bootstrap"/>
+        <asset name="jquery"/>
+        <asset name="components-font-awesome"/>
+        <!--<asset name="animate-css"/>-->
+        <asset name="lodash"/>
+        <asset name="moment"/>
+        <asset name="bootstrap-daterangepicker"/>
+    </bower_components>
+    <custom_assets>
+        <asset name="fancybox" source="css/jquery.fancybox.css" dependency="" theme_name="frontend.default"/>
+        <asset name="fancybox-button" source="css/helpers/jquery.fancybox-buttons.css" dependency="" theme_name="frontend.default"/>
+        <asset name="fancybox-thumb" source="css/helpers/jquery.fancybox-thumbs.css" dependency="" theme_name="frontend.default"/>
+        <asset name="flex-slider" source="css/flexslider.css" dependency="" theme_name="frontend.default"/>
+        <asset name="animation" source="css/animations.min.css" dependency="" theme_name="frontend.default"/>
+        <asset name="carousel" source="css/carousel.css" dependency="" theme_name="frontend.default"/>
+        <asset name="owl-carousel" source="css/owl.carousel.css" dependency="" theme_name="frontend.default"/>
+        <asset name="rs-plugin" source="rs-plugin/css/settings.css" dependency="" theme_name="frontend.default"/>
+        <asset name="style" source="css/style.css" dependency="" theme_name="frontend.default"/>
+        <asset name="responsive" source="css/responsive.css" dependency="" theme_name="frontend.default"/>
+        <asset name="vertical" source="css/vertical-xc.min.css" dependency="" theme_name="frontend.default"/>
+
+        <asset name="jquery-easing" source="js/jquery.easing.min.js" dependency="" theme_name="frontend.default"/>
+        <asset name="scrolling" source="js/scrolling-nav.js" dependency="" theme_name="frontend.default"/>
+        <asset name="classie" source="js/classie.js" dependency="" theme_name="frontend.default"/>
+        <asset name="cbpAnimatedHeader" source="js/cbpAnimatedHeader.min.js" dependency="" theme_name="frontend.default"/>
+        <asset name="appear" source="js/appear.min.js" dependency="" theme_name="frontend.default"/>
+        <asset name="animationsjs" source="js/animations.min.js" dependency="" theme_name="frontend.default"/>
+        <asset name="retina" source="js/retina-1.1.0.min.js" dependency="" theme_name="frontend.default"/>
+        <asset name="jquery-fancybox" source="js/jquery.fancybox.pack.js" dependency="" theme_name="frontend.default"/>
+        <asset name="jquery-fancybox-buttons" source="js/jquery.fancybox-buttons.js" dependency="" theme_name="frontend.default"/>
+        <asset name="jquery-fancybox-media" source="js/jquery.fancybox-media.js" dependency="" theme_name="frontend.default"/>
+        <asset name="jquery-fancybox-thumbs" source="js/jquery.fancybox-thumbs.js" dependency="" theme_name="frontend.default"/>
+        <asset name="jflexslider" source="js/jquery.flexslider.min.js" dependency="" theme_name="frontend.default"/>
+        <asset name="jvalidate" source="js/jquery.validate.min.js" dependency="" theme_name="frontend.default"/>
+        <asset name="jform" source="js/jquery.form.min.js" dependency="" theme_name="frontend.default"/>
+        <asset name="map-grey" source="js/map.grey.js" dependency="" theme_name="frontend.default"/>
+        <asset name="isotope" source="js/isotope.pkgd.min.js" dependency="" theme_name="frontend.default"/>
+        <asset name="jcarousel" source="js/owl.carousel.min.js" dependency="" theme_name="frontend.default"/>
+        <asset name="jparallax" source="js/jquery.parallax-1.1.3.js" dependency="" theme_name="frontend.default"/>
+        <asset name="jcountTo" source="js/jquery.countTo.js" dependency="" theme_name="frontend.default"/>
+        <asset name="jSmoothScroll" source="js/SmoothScroll.js" dependency="" theme_name="frontend.default"/>
+        <asset name="jthemepunch" source="rs-plugin/js/jquery.themepunch.tools.min.js" dependency="" theme_name="frontend.default"/>
+        <asset name="jthemepunch-revolution" source="rs-plugin/js/jquery.themepunch.revolution.min.js" dependency="" theme_name="frontend.default"/>
+        <asset name="jmain" source="js/main.js" dependency="" theme_name="frontend.default"/>
+    </custom_assets>
+    <view_data>
+        <instance name="\Modules\IzAdmin\Repositories\Theme\View\IzAdmin\Index"/>
+    </view_data>
+</xml>

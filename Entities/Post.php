@@ -13,4 +13,11 @@ class Post extends Model {
      */
     protected $guarded = ['id', 'created_at', 'updated_at'];
 
+    /**
+     * Polymorphic relationship
+     * @return \Illuminate\Database\Eloquent\Relations\MorphMany
+     */
+    public function images() {
+        return $this->morphMany('\Modules\IzCore\Entities\Image', 'imageable');
+    }
 }

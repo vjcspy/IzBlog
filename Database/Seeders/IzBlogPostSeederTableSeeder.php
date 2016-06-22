@@ -3,8 +3,28 @@
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;
 use DB;
+use Modules\IzBlog\Entities\Post;
 
+/**
+ * Class IzBlogPostSeederTableSeeder
+ *
+ * @package Modules\Izblog\Database\Seeders
+ */
 class IzBlogPostSeederTableSeeder extends Seeder {
+
+    /**
+     * @var \Modules\IzBlog\Entities\Post
+     */
+    protected $post;
+
+    /**
+     * IzBlogPostSeederTableSeeder constructor.
+     *
+     * @param \Modules\IzBlog\Entities\Post $post
+     */
+    public function __construct(Post $post) {
+        $this->post = $post;
+    }
 
     /**
      * Run the database seeds.
@@ -17,7 +37,7 @@ class IzBlogPostSeederTableSeeder extends Seeder {
 
         $limit = 50;
         for ($i = 0; $i < $limit; $i++) {
-            DB::table('izblog_post')->insert(
+            $this->post->create(
                 [
                     'post_author'    => $faker->randomDigit,
                     'post_date'      => $faker->dateTime,

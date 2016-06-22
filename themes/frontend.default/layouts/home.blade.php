@@ -23,7 +23,7 @@
 {!! Theme::content() !!}
 
 {{--ConfigProvider--}}
-{{--{!! Theme::partial('izAdminConfigProvider') !!}--}}
+{!! Theme::partial('izBlogConfigProvider') !!}
 
 {{--Assets scripts in bower--}}
 {!! Theme::asset()->container('footer')->scripts() !!}

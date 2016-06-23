@@ -65,7 +65,7 @@ class LayoutManagement extends IzObject {
                             if (pathinfo($layoutFile, PATHINFO_EXTENSION) !== 'php')
                                 continue;
 
-                            $layoutFileNameWithoutExt = preg_replace('/(blade\.php)$/', '', $layoutFile);
+                            $layoutFileNameWithoutExt = preg_replace('/(\.blade\.php)$/', '', $layoutFile);
                             $this->_layouts[]         = $layoutFileNameWithoutExt;
                         }
                     }

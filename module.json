@@ -8,7 +8,8 @@
   "providers": [
     "Modules\\IzBlog\\Providers\\IzBlogServiceProvider",
     "Modules\\IzBlog\\Providers\\DeclareThemeServiceProvider",
-    "Modules\\IzBlog\\Providers\\DeclareViewServiceProvider"
+    "Modules\\IzBlog\\Providers\\DeclareViewServiceProvider",
+    "Modules\\IzBlog\\Providers\\OverMenuServiceProvider"
   ],
   "aliases": {},
   "files": [

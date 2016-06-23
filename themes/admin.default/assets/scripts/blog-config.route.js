@@ -11,9 +11,9 @@ angular.module('app')
         ['$stateProvider', '$urlRouterProvider', 'MODULE_CONFIG',
             function ($stateProvider, $urlRouterProvider, MODULE_CONFIG) {
                 $stateProvider
-                    .state('blog_post', {
+                    .state('post', {
                         abstract: true,
-                        url: '/blog',
+                        url: '/post',
                         views: {
                             '': {
                                 templateUrl: 'modules/themes/admin.default/assets/views/layout.html'
@@ -38,7 +38,7 @@ angular.module('app')
                             }
                         }
                     })
-                    .state('blog_post.categories', {
+                    .state('post.categories', {
                         url: '/categories',
                         data: {title: 'Danh mục bài viết', folded: true},
                         templateUrl: "modules/themes/admin.default/assets/views/blog/post/categories.html",

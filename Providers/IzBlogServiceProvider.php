@@ -31,7 +31,13 @@ class IzBlogServiceProvider extends ServiceProvider {
         $this->app->singleton(
             'blogMenu',
             function ($app) {
-                return $app->make('\Modules\Izblog\Providers\MenuManagement');
+                return $app->make('\Modules\IzBlog\Repositories\MenuManagement');
+            });
+
+        $this->app->singleton(
+            'blogView',
+            function ($app) {
+                return $app->make('\Modules\IzBlog\Repositories\Theme\Views\ViewManagement');
             });
     }
 
@@ -99,7 +105,7 @@ class IzBlogServiceProvider extends ServiceProvider {
      * @return array
      */
     public function provides() {
-        return array();
+        return [];
     }
 
 }

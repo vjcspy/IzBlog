@@ -6,7 +6,7 @@
  * Time: 10:21 PM
  */
 
-namespace modules\IzBlog\Repositories;
+namespace Modules\IzBlog\Repositories;
 
 
 use Modules\IzCore\Repositories\IzMenu;

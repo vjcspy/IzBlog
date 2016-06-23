@@ -35,6 +35,9 @@ angular.module('app')
                                         return defer.resolve(true);
                                 });
                                 return defer.promise;
+                            },
+                            postCategory: function (BlogCategory) {
+                                return BlogCategory.getCategoriesFromServer();
                             }
                         }
                     })

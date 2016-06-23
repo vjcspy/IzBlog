@@ -9,7 +9,9 @@
     "Modules\\IzBlog\\Providers\\IzBlogServiceProvider",
     "Modules\\IzBlog\\Providers\\DeclareThemeServiceProvider",
     "Modules\\IzBlog\\Providers\\DeclareViewServiceProvider",
-    "Modules\\IzBlog\\Providers\\OverMenuServiceProvider"
+    "Modules\\IzBlog\\Providers\\OverMenuServiceProvider",
+    "Modules\\IzBlog\\Providers\\PostCategoryServiceProvider",
+    "Modules\\IzBlog\\Providers\\OverConfigServiceProvider"
   ],
   "aliases": {},
   "files": [

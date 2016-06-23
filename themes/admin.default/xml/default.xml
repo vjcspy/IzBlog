@@ -7,6 +7,7 @@
         -->
         <asset name="blog_js_config_router" source="scripts/blog-config.route.js" dependency="" theme_name="admin.default"/>
         <asset name="blog_css_main_style" source="styles/iz-blog/stylesheets/main.css" dependency="" theme_name="admin.default"/>
-
+        <asset name="blog_post_category" source="scripts/directives/category.js" dependency="" theme_name="admin.default"/>
+        <asset name="blog_post_category_service" source="scripts/services/blog/blogcategory.js" dependency="" theme_name="admin.default"/>
     </custom_assets>
 </xml>

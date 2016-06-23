@@ -24,7 +24,7 @@ class PostGridDefault extends ViewAbstract {
     /**
      * @var string
      */
-    protected $layoutName = 'default';
+    protected $layoutName = ['default'];
     /**
      * @var bool
      */

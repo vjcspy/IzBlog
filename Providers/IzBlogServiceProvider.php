@@ -39,6 +39,12 @@ class IzBlogServiceProvider extends ServiceProvider {
             function ($app) {
                 return $app->make('\Modules\IzBlog\Repositories\Theme\Views\ViewManagement');
             });
+        $this->app->singleton(
+            'blogLayout',
+            function ($app) {
+                return $app->make('\Modules\IzBlog\Repositories\Theme\Layouts\LayoutManagement');
+            }
+        );
     }
 
     /**

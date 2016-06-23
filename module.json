@@ -1,15 +1,17 @@
 {
-    "name": "IzBlog",
-    "alias": "izblog",
-    "description": "",
-    "keywords": [],
-    "active": 1,
-    "order": 0,
-    "providers": [
-        "Modules\\IzBlog\\Providers\\IzBlogServiceProvider"
-    ],
-    "aliases":{},
-    "files": [
-        "start.php"
-    ]
+  "name": "IzBlog",
+  "alias": "izblog",
+  "description": "",
+  "keywords": [],
+  "active": 1,
+  "order": 0,
+  "providers": [
+    "Modules\\IzBlog\\Providers\\IzBlogServiceProvider",
+    "Modules\\IzBlog\\Providers\\DeclareThemeServiceProvider",
+    "Modules\\IzBlog\\Providers\\DeclareViewServiceProvider"
+  ],
+  "aliases": {},
+  "files": [
+    "start.php"
+  ]
 }

@@ -8,6 +8,7 @@
 
 namespace Modules\IzBlog\Providers;
 
+use Log;
 
 class DeclareViewServiceProvider extends \Illuminate\Support\ServiceProvider {
 
@@ -15,7 +16,13 @@ class DeclareViewServiceProvider extends \Illuminate\Support\ServiceProvider {
         /** @var \Modules\IzBlog\Repositories\Theme\Views\ViewManagement $blogView */
         $blogView = app()['blogView'];
         
-        $blogView->registerView('\Modules\IzBlog\Repositories\Theme\Views\PostGridDefault');
+        try {
+            $blogView->registerView('\Modules\IzBlog\Repositories\Theme\Views\PostGridDefault');
+        } catch (\Exception $e) {
+            // truong hop moi tao app. chua co table
+            Log::error($e->getMessage());
+        }
+
     }
 
     /**

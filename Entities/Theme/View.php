@@ -14,4 +14,13 @@ class View extends \Illuminate\Database\Eloquent\Model {
     protected $table = 'izblog_view';
 
     protected $fillable = ['name', 'share_layout', 'has_config'];
+
+    /**
+     * Relationship
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function themes() {
+        return $this->belongsTo('\Modules\IzCore\Entities\Theme', 'theme_name', 'name');
+    }
 }

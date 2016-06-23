@@ -56,7 +56,7 @@ class ViewManagement extends IzObject {
         if (is_null($viewInstance->getThemeName()))
             throw new \Exception('Must declare theme name');
 
-        $view               = $this->getViewModel()->query()->firstOrNew(['name' => $this->getFileName()]);
+        $view               = $this->getViewModel()->query()->firstOrNew(['name' => $viewInstance->getFileName()]);
         $view->share_layout = $viewInstance->isShareLayout() == true ? 1 : 0;
         $view->has_config   = $viewInstance->isHasConfig() == true ? 1 : 0;
         $view->theme_name   = $viewInstance->getThemeName();

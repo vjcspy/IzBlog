@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateIzblogViewTable extends Migration {
+class CreateIzblogLayoutTable extends Migration {
 
     /**
      * Run the migrations.
@@ -12,14 +12,11 @@ class CreateIzblogViewTable extends Migration {
      */
     public function up() {
         Schema::create(
-            'izblog_view',
+            'izblog_layout',
             function (Blueprint $table) {
                 $table->increments('id');
-                $table->string('name');
-                $table->tinyInteger('share_layout');
-                $table->tinyInteger('has_config');
-                $table->string('theme_name');
-                $table->string('path');
+                $table->integer('view_id');
+                $table->integer('theme_id');
                 $table->timestamps();
             });
     }
@@ -30,7 +27,7 @@ class CreateIzblogViewTable extends Migration {
      * @return void
      */
     public function down() {
-        Schema::drop('izblog_view');
+        Schema::drop('izblog_layout');
     }
 
 }

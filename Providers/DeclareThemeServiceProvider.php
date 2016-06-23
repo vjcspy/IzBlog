@@ -9,7 +9,9 @@
 namespace Modules\IzBlog\Providers;
 
 
+use Illuminate\Database\QueryException;
 use Illuminate\Support\ServiceProvider;
+use Log;
 
 class DeclareThemeServiceProvider extends ServiceProvider {
 
@@ -17,7 +19,12 @@ class DeclareThemeServiceProvider extends ServiceProvider {
         /*Register theme*/
         /** @var \Modules\IzCore\Repositories\Theme $izTheme */
         $izTheme = app()['izTheme'];
-        $izTheme->registerTheme('frontend.default', $isFrontend = false);
+        try {
+            $izTheme->registerTheme('frontend.default', $isFrontend = false);
+        } catch (\Exception $e) {
+            // truong hop moi tao app chua co table
+            Log::error($e->getMessage());
+        }
     }
 
     /**

@@ -6,7 +6,7 @@
  * Time: 10:06
  */
 
-namespace Modules\IzBlog\Repositories\Theme\Views;
+namespace Modules\IzBlog\Repositories\Theme\Views\Contract;
 
 
 interface ViewInterface {
@@ -18,11 +18,4 @@ interface ViewInterface {
      * @return string
      */
     public function renderConfigForCustomPage();
-
-    /**
-     * Khai báo sự tồn tại của view để có thể lấy ra trong menu
-     *
-     * @return $this
-     */
-    public function initView();
 }

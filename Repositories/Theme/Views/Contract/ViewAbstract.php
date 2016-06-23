@@ -6,7 +6,7 @@
  * Time: 10:08
  */
 
-namespace Modules\IzBlog\Repositories\Theme\Views;
+namespace Modules\IzBlog\Repositories\Theme\Views\Contract;
 
 use Modules\IzCore\Repositories\Object\IzObject;
 
@@ -49,10 +49,20 @@ class ViewAbstract extends IzObject implements ViewInterface {
      * @var bool
      */
     protected $hasConfig = false;
+
+    /**
+     * @var string
+     */
+    protected $themeName;
+
     /**
      * @var \Modules\IzBlog\Entities\Theme\View
      */
     private $viewModel;
+    /**
+     * @var \Modules\IzCore\Entities\Theme
+     */
+    private $themeModel;
 
     /**
      * ViewAbstract constructor.
@@ -62,23 +72,14 @@ class ViewAbstract extends IzObject implements ViewInterface {
      */
     public function __construct(
         \Modules\IzBlog\Entities\Theme\View $viewModel,
+        \Modules\IzCore\Entities\Theme $themeModel,
         array $data = []
     ) {
-        $this->viewModel = $viewModel;
+        $this->themeModel = $themeModel;
+        $this->viewModel  = $viewModel;
         parent::__construct($data);
     }
 
-    /**
-     * @throws \Exception
-     */
-    public function initView() {
-        if (is_null($this->fileName))
-            throw new \Exception('File name must be string');
-        $view               = $this->viewModel->query()->firstOrNew(['name' => $this->getFileName()]);
-        $view->share_layout = $this->isShareLayout() == true ? 1 : 0;
-        $view->has_config   = $this->isHasConfig() == true ? 1 : 0;
-        $view->save();
-    }
 
     /**
      * Mỗi một view sẽ có config trong phần quản lý menu để tạo ra 1 page. Bao gồm 1 layout + 1 view
@@ -119,6 +120,27 @@ class ViewAbstract extends IzObject implements ViewInterface {
      */
     public function getLayoutName() {
         return $this->layoutName;
+    }
+
+    /**
+     * @return string
+     */
+    public function getThemeName() {
+        return $this->themeName;
+    }
+
+    /**
+     * @return \Modules\IzBlog\Entities\Theme\View
+     */
+    public function getViewModel() {
+        return $this->viewModel;
+    }
+
+    /**
+     * @return \Modules\IzCore\Entities\Theme
+     */
+    public function getThemeModel() {
+        return $this->themeModel;
     }
 
 

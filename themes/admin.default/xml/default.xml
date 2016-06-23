@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <custom_assets>
+        <!--
+        - Ở đây không cần theme_name nếu custom asset đó nằm trong theme hiện tại.
+        - Còn có trường hợp custom asset lại nằm trong theme khác.
+        -->
+        <asset name="blog_js_config_router" source="scripts/blog-config.route.js" dependency="" theme_name="admin.default"/>
+        <asset name="blog_css_main_style" source="styles/iz-blog/stylesheets/main.css" dependency="" theme_name="admin.default"/>
+
+    </custom_assets>
+</xml>

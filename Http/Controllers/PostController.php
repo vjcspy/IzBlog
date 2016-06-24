@@ -32,13 +32,11 @@ class PostController extends BasicController {
 
     public function getCategories() {
         try {
-            $root = $this->getPostCategoryManagement()->getRoot();
-            $childs = $root->getAncestorsAndSelfWithoutRoot();
-            $this->setResponseData($childs);
-        }
-        catch (\Exception $e) {
+            $this->setResponseData($this->getPostCategoryManagement()->getNestedCategoryJs());
+        } catch (\Exception $e) {
             $this->setErrorData($e->getMessage());
         }
+
         return $this->responseJson();
     }
 

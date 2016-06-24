@@ -1,8 +1,25 @@
-<div lazy-load="angular-ui-tree" class="shop-category-tree">
-    <div ui-tree id="tree-root" >
-        <ol ui-tree-nodes ng-model="categories">
-            <li ng-repeat="node in categories" ui-tree-node
-                ng-include="'modules/themes/admin.default/assets/views/blog/directives/catalog-nodes.html'"></li>
-        </ol>
+<div class="row">
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 shop-product-crud">
+        <div class="row">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <button type="button" class="btn btn-default" ng-click="expandAll()">Mở rộng</button>
+                    <button type="button" class="btn btn-default" ng-click="collapseAll()">Nhóm lại</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div lazy-load="angular-ui-tree" class="blog-category-tree">
+                <div ui-tree id="tree-root">
+                    <ol ui-tree-nodes ng-model="categories">
+                        <li ng-repeat="node in categories" ui-tree-node
+                            ng-include="'modules/themes/admin.default/assets/views/blog/directives/catalog-nodes.html'"></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+
     </div>
 </div>

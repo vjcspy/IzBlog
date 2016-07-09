@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <bower_components>
+        <asset name="bootstrap"/>
+        <asset name="jquery"/>
+        <asset name="components-font-awesome"/>
+        <!--<asset name="animate-css"/>-->
+        <asset name="lodash"/>
+        <asset name="moment"/>
+        <asset name="bootstrap-daterangepicker"/>
+    </bower_components>
+    <custom_assets>
+        <asset name="vendor" source="css/vendor.css" dependency="" theme_name="frontend.webelieve"/>
+        <asset name="font-awsome-css" source="css/font-awesome.css" dependency="" theme_name="frontend.webelieve"/>
+        <asset name="theme-default-css" source="css/theme-default.css" dependency="" theme_name="frontend.webelieve"/>
+        <asset name="custom-css" source="css/custom.css" dependency="" theme_name="frontend.webelieve"/>
+        <asset name="uipanel-css" source="css/ui-panel.css" dependency="" theme_name="frontend.webelieve"/>
+        <asset name="vendor-js-core" source="js/vendor.js" dependency="" theme_name="frontend.webelieve"/>
+        <asset name="app-js-core" source="js/app.js" dependency="" theme_name="frontend.webelieve"/>
+        <asset name="demo-js-core" source="js/demo.js" dependency="" theme_name="frontend.webelieve"/>
+    </custom_assets>
+    <view_data>
+        <instance name="\Modules\IzAdmin\Repositories\Theme\View\IzAdmin\Index"/>
+    </view_data>
+</xml>

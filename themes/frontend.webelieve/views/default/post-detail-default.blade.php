@@ -521,8 +521,8 @@
                 <a style="margin-left: 32%;" href="index.html" class="header__logo">
                     <svg class="header__logo-svg">
                         <img
-                        src="/modules/themes/frontend.webelieve/assets/media-demo/events/logo.png" alt=""
-                        class="nav__event-img"/>
+                                src="/modules/themes/frontend.webelieve/assets/media-demo/events/logo.png" alt=""
+                                class="nav__event-img"/>
                     </svg>
                 </a>
                 <!-- BEGIN toolbar-->
@@ -643,13 +643,13 @@
     <!-- BEGIN BEFORE MAIN SECTION-->
     <!-- END BEFORE MAIN SECTION-->
     <!-- BEGIN MAIN SECTION-->
-    <main class="main main--subpage main--events">
+    <main class="main main--subpage main--blog">
         <!-- BEGIN BREADCRUMBS-->
         <nav class="breadcrumbs">
             <div class="container">
                 <ul>
                     <li class="breadcrumbs__item"><a href="" class="breadcrumbs__link">Home</a></li>
-                    <li class="breadcrumbs__item"><a href="" class="breadcrumbs__link"></a></li>
+                    <li class="breadcrumbs__item"><a href="" class="breadcrumbs__link">Our blog</a></li>
                 </ul>
             </div>
         </nav>
@@ -664,495 +664,116 @@
                 <!-- BEGIN MAIN CONTENT-->
                 <div class="main__content">
                     <!-- BEGIN WIDGET-->
-                    <div class="widget js-widget widget--card widget--panel">
+                    <div class="widget js-widget widget--card widget--details">
                         <!-- END WIDGET HEADER-->
                         <!-- BEGIN WIDGET CONTENT-->
                         <div class="widget__content">
-                            <!-- Begin filters block-->
-                            <div class="filters js-filters">
-                                <div class="filters__period">
-                                    <button class="btn--border-default filters__period-btn">
-                                        <svg class="filters__period-svg">
-                                            <use xlink:href="#icon-arrow-left"></use>
-                                        </svg>
-                                    </button>
-                                    <h4 class="filters__period-label">7/2016</h4>
-                                    <button class="btn--border-default filters__period-btn">
-                                        <svg class="filters__period-svg">
-                                            <use xlink:href="#icon-arrow-right"></use>
-                                        </svg>
-                                    </button>
+                            <div class="post post--details">
+                                <time datetime="2016" class="post__time">
+                                    <svg class="post__time-svg">
+                                        <use xlink:href="#icon-time"></use>
+                                    </svg>Friday, August 25, 2015
+                                </time>
+                                <div class="widget__header-title">
+                                    <h2 class="widget__title">Nếu 1 nhũ hoa từ thâm đen trở nên hồng hào gợi cảm thật sự tự tin trước bạn trai với chi phí chỉ giảm rồi còn 680k 1 lần duy nhất thì các bạn đã thấy đủ để iu chưa?</h2>
                                 </div>
-                                <div class="filters__search">
-                                    <div class="form-group">
-                                        <label for="in-filters-city" class="control-label sr-only"></label>
-                                        <!--div.listing__show-wrap-->
-                                        <select id="in-filters-city" class="form-control">
-                                            <option>Tham my mat</option>
-                                            <option>Tham my mui</option>
-                                            <option>Tham my ham mat</option>
-                                            <option>Tham my vong 1</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="in-datetime" class="control-label sr-only"></label>
-                                        <input type="text" id="in-datetime" value="Date" data-start-date="12/03/2015" data-end-date="12/22/2015"
-                                               data-time-picker="false" data-single-picker="false" class="js-datetimerange form-control">
-                                    </div>
-                                    <button class="btn--border-default filters__search-btn js-filters-btn"></button>
-                                </div>
-                                <div class="filters__view">
-                                    <button data-mode="grid" class="btn--border-default filters__view-btn js-switch-btn">
-                                        <svg class="filters__view-svg">
-                                            <use xlink:href="#icon-grid"></use>
-                                        </svg>
-                                    </button>
-                                    <button data-mode="list" class="btn--border-default filters__view-btn js-switch-btn">
-                                        <svg class="filters__view-svg">
-                                            <use xlink:href="#icon-list"></use>
-                                        </svg>
-                                    </button>
+                                <div class="post__author"><i>by</i> <a>Edgar Smith</a></div>
+                                <div class="widget__preview"><img src="/modules/themes/frontend.webelieve/assets/media-demo/post/900x475/post-1.jpg" alt="" class="post__preview-img"></div>
+                                <div class="widget__description">
+                                    <p>01. Nhũ hoa hồng tự nhiên Với công nghệ phun hồng nhũ hoa pha lê 16D ra chùm hồng cực mỏng tác động đến các sắc tố thâm đen vùng nhũ hoa. Những sắc tố ở vùng ngoài dưới da sẽ được đẩy lên trên bề mặt da và bị mở dần còn những sắc tố nằm sâu bên trong biểu bì da sẽ bị tán thành những hạt nhỏ xíu được đào thải theo quá trình lọc thải tự nhiên trong cơ thể. Ngoài ra, những bước sóng kích thích sản sinh ra các callogen làm mìn màng và cho nhũ hoa tươi trẻ , hồng tự nhiên. Do đó, chỉ sau 1 lần điều trị duy nhất cho kết quả nhũ hoa hồng tự nhiên, tươi sáng, biến mất mọi vết thâm đen. 02. Hiệu quả lâu dài Với công nghệ thẩm mỹ phun hồng nhũ hoa tiên tiến bằng tia laser với các bước sóng tác động kéo dài trên các mô, làm săn các bó cơ, xóa bỏ các nếp nhăn,giúp thon gọn nhũ hoa, săn chắc, sáng mịn, hiệu quả lâu dài. 03. Công nghệ an toàn tuyệt đối Công nghệ phun hồng nhũ hoa chỉ tác động nhẹ nhàng lên vùng nhũ hoa mà không gây xâm lấn, không gây bất kỳ mọi tổn thương , không gây ảnh hưởng tới chức năng sinh lý của bầu ngực và ảnh hưởng đến quá trình cho con bú. Công nghệ phun hồng nhũ hoa được Thẩm mỹ viện Sài Gòn Venus ứng dụng theo quy trình thẩm mỹ an toàn, tuân thủ mọi quy định của Bộ y tế đảm bảo an toàn tuyệt đối cho mọi khách hàng. 04. Không đau, không cần phẫu thuật Phương pháp phun hồng nhũ hoa hoàn toàn không phẫu thuật. Với ứng dụng nguồn năng lượng xúc tác trong việc điều trị vào vùng nhũ hoa làm tan biến mọi vết thâm đen. Trước khi tiến hành bác sĩ sẽ bôi tê vùng nhũ hoa nên khách hàng không cảm thấy đau đớn hay bất kỳ khó chịu nào.</p>
+                                    <blockquote>Nhằm đáp ứng nhu cầu làm đẹp ngày càng cao của khách hàng, Thẩm mỹ viện Hoa Kỳ không ngừng cập nhật công nghệ tiên tiến trên thế giới về lĩnh vực làm đẹp, thẩm mỹ nhằm đem đến cho khách hàng nhiều giải pháp làm đẹp thẩm mỹ chất lượng, tối ưu hóa kết quả thẩm mỹ và làm hài lòng khách hàng. Đặc biệt, Thẩm mỹ viện Hoa Kỳ đã áp dụng thành công phương pháp phun hồng nhũ hoa đem đến đôi nhũ hoa đẹp tự nhiên, cùng niềm vui, sự tự tin trong cuộc sống của nhiều khách hàng tại Việt Nam. - Thẩm mỹ viện Hoa Kỳ là một trong số ít các thẩm mỹ viện tại Việt Nam đã được Sở y tế Tp.HN cấp phép hoạt động phẫu thuật thẩm mỹ. - Công nghệ thẩm mỹ phun hồng nhũ hoa được Thẩm mỹ viện Hoa Kỳ trực tiếp tiếp nhận chuyển giao từ Hàn quốc, tiến hành theo một quy trình phẫu thuật thẩm mỹ khép kín ,đạt chuẩn,đảm bảo an toàn tuyệt đối, đem đến cho khách hàng kết quả đôi nhũ hoa đẹp tự nhiên</blockquote>
+                                    <p>Sau phun hồng nhũ hoa có thể đổi màu, biến màu. - 2 màu nhũ hoa không cân đối - Màu nhũ không hài hòa với khuôn quầng ngực - Nhiễm trùng da, viêm da khi khâu sát khuẩn không cẩn thận - Nên thực hiện chăm sóc theo hướng dẫn cụ thể của bác sĩ phun hồng nhũ hoa pha lê 16D. - Thêm vào đó là sự tuân thủ giữ gìn, chăm sóc sau phẫu thuật của khách hàng cũng là một yếu tố quan trọng giúp tránh viêm nhiễm, hoặc vẹo lệch sau thẩm mỹ phun hồng nhũ hoa. Bác sỹ phẫu thuật và khách hàng phải có sự kết hợp hài hòa vì cái đẹp chung . Thẩm mỹ viện Hoa Kỳ với đội ngũ y chuyên gia hơn 20 kinh nghiệm cho kết quả làm hồng nhũ hoa pha lê 16D đẹp tư nhiên không ai biết!</p>
+                                    <p><img src="/modules/themes/frontend.webelieve/assets/media-demo/post/post-2.jpg" style="float: left; margin: 10px 20px 10px 0;" alt=""> Công nghệ phun hồng nhũ hoa được Thẩm mỹ viện Sài Gòn Venus ứng dụng theo quy trình thẩm mỹ an toàn, tuân thủ mọi quy định của Bộ y tế đảm bảo an toàn tuyệt đối cho mọi khách hàng. 04. Không đau, không cần phẫu thuật Phương pháp phun hồng nhũ hoa hoàn toàn không phẫu thuật. Với ứng dụng nguồn năng lượng xúc tác trong việc điều trị vào vùng nhũ hoa làm tan biến mọi vết thâm đen. Trước khi tiến hành bác sĩ sẽ bôi tê vùng nhũ hoa nên khách hàng không cảm thấy đau đớn hay bất kỳ khó chịu nào.</p>
+                                    <p>Nhũ hoa hồng tự nhiên Với công nghệ phun hồng nhũ hoa pha lê 16D ra chùm hồng cực mỏng tác động đến các sắc tố thâm đen vùng nhũ hoa. Những sắc tố ở vùng ngoài dưới da sẽ được đẩy lên trên bề mặt da và bị mở dần còn những sắc tố nằm sâu bên trong biểu bì da sẽ bị tán thành những hạt nhỏ xíu được đào thải theo quá trình lọc thải tự nhiên trong cơ thể. Ngoài ra, những bước sóng kích thích sản sinh ra các callogen làm mìn màng và cho nhũ hoa tươi trẻ , hồng tự nhiên. Do đó, chỉ sau 1 lần điều trị duy nhất cho kết quả nhũ hoa hồng tự nhiên, tươi sáng, biến mất mọi vết thâm đen</p>
                                 </div>
                             </div>
-                            <!-- Begin filters block-->
+                            <div class="widget__footer" style="display:none">
+                                <nav class="widget__tags"><a>John Stevenson</a> / <a>Worship</a> / <a>Faith</a> / <a>Love</a> / <a>Forgiveness</a> / <a>Hearth</a></nav>
+                                <div class="social social--right">
+                                    <div class="social__list"><a href="#" class="social__item"><i class="fa fa-facebook"></i></a><a href="#" class="social__item"><i class="fa fa-twitter"></i></a><a href="#" class="social__item"><i class="fa fa-google-plus"></i></a></div>
+                                </div>
+                            </div>
                         </div>
                         <!-- END WIDGET CONTENT-->
                     </div>
                     <!-- END WIDGET-->
                     <!-- BEGIN WIDGET-->
-                    <div class="widget js-widget widget--listing">
+                    <div class="widget js-widget widget--card">
                         <!-- END WIDGET HEADER-->
                         <!-- BEGIN WIDGET CONTENT-->
                         <div class="widget__content">
-                            <div data-modifier="list" data-view="event" class="event event--list js-switch-view js-event">
-                                <div class="listing listing--list">
-                                    <div class="listing__item">
-                                        <div class="event__item js-event-item">
-                                            <div class="event__preview"><span class="event__status">passed</span><a href="event_details.html"
-                                                                                                                    class="event__preview-link"><img
-                                                            src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-2.jpg"
-                                                            alt="" class="event__preview-img"></a>
-                                                <div class="event__links"><a class="event__link-item js-event-location">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-location"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <div class="event__link-item event__link-item--share">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-share"></use>
-                                                        </svg>
-                                                        <div class="social social--share"><a href="#" class="social__item"><i
-                                                                        class="fa fa-facebook"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-twitter"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-google-plus"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-odnoklassniki"></i></a></div>
-                                                    </div>
-                                                    <a class="event__link-item">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-phone"></use>
-                                                        </svg>
-                                                    </a><a class="event__link-item js-event-mail">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-mail"></use>
-                                                        </svg>
-                                                    </a>
+                            <div class="comment comment--list">
+                                <header class="comment__header">
+                                    <h6 class="comment__header-comment"><i class="fa fa-comment"></i>Nhận xét (23)</h6>
+                                    <h6>Bạn cần đăng nhập <a>facebook</a> comment.</h6>
+                                </header>
+                                <div class="comment__list">
+                                    <div class="comment__item">
+                                        <div class="comment__avatar"><img src="/modules/themes/frontend.webelieve/assets/media-demo/avatars/1.png" alt=""></div>
+                                        <div class="comment__info">
+                                            <div class="comment__info-left">
+                                                <h3 class="comment__author">Thanh Tu</h3>
+                                                <time datetime="2016" class="comment__time">tháng 7 năm 2015 lúc 9:15 am</time>
+                                            </div>
+                                            <div class="comment__info-right">
+                                                <button class="btn--flat-small comment__reply js-comment-reply">Trả lời</button>
+                                            </div>
+                                        </div>
+                                        <div class="comment__body">
+                                            <p> Với ứng dụng nguồn năng lượng xúc tác trong việc điều trị vào vùng nhũ hoa làm tan biến mọi vết thâm đen</p>
+                                        </div>
+                                        <!-- end of block .comment__item-->
+                                    </div>
+                                    <div class="comment__item">
+                                        <div class="comment__avatar"><img src="/modules/themes/frontend.webelieve/assets/media-demo/avatars/2.png" alt=""></div>
+                                        <div class="comment__info">
+                                            <div class="comment__info-left">
+                                                <h3 class="comment__author">Thanh An</h3>
+                                                <time datetime="2016" class="comment__time">tháng 7 năm 2015 lúc 9:15 am</time>
+                                            </div>
+                                            <div class="comment__info-right">
+                                                <button class="btn--flat-small comment__reply js-comment-reply">Trả lời</button>
+                                            </div>
+                                        </div>
+                                        <div class="comment__body">
+                                            <p> Với ứng dụng nguồn năng lượng xúc tác trong việc điều trị vào vùng nhũ hoa làm tan biến mọi vết thâm đen</p>
+                                        </div>
+                                        <!-- end of block .comment__item-->
+                                    </div>
+                                    <div class="comment__children">
+                                        <div class="comment__item">
+                                            <div class="comment__avatar"><img src="/modules/themes/frontend.webelieve/assets/media-demo/avatars/1.png" alt=""></div>
+                                            <div class="comment__info">
+                                                <div class="comment__info-left">
+                                                    <h3 class="comment__author">Thanh An</h3>
+                                                    <time datetime="2016" class="comment__time">tháng 7 năm 2015 lúc 9:15 am</time>
+                                                </div>
+                                                <div class="comment__info-right">
+                                                    <button class="btn--flat-small comment__reply js-comment-reply">Trả lời</button>
                                                 </div>
                                             </div>
-                                            <div class="event__details">
-                                                <h3 class="event__name"><a href="event_details.html">TRỊ NÁM DA HIỆU QUẢ TẠI BỆNH VIỆN THẨM MỸ...</a></h3>
-                                                <h5 class="event__organaizer">Danh Muc -<strong>Tham My Da</strong></h5>
-                                                <div class="event__info">
-                                                    <h6 class="event__location">
-                                                        Bệnh viện thẩm mỹ là địa chỉ trị nám da hiệu quả và uy tín. Với đội ngũ bác sĩ giỏi,
-                                                        có kinh nghiệm trong điều trị thẩm mỹ da cùng việc ứng dụng thành công các cách trị nám da
-                                                        bằng công nghệ tiên tiến như công nghệ Laser Toning, công nghệ E-light, công nghệ Mesotheraphy
-                                                        và công nghệ Peeling, mang đến cho khách hàng những phương pháp trị nám da hiệu quả cao, an
-                                                        toàn, không đau rát và không để lại sẹo
-                                                    </h6>
-                                                </div>
-                                                <div class="clearfix"></div>
-                                                <div class="event__price">$ 890.000 VND</div>
-                                                <a href="event_details.html" class="btn--link event__more">Đọc thêm</a>
+                                            <div class="comment__body comment__body--warning">
+                                                <h5>Your comment is awaiting moderation.</h5>
+                                                <p> Với ứng dụng nguồn năng lượng xúc tác trong việc điều trị vào vùng nhũ hoa làm tan biến mọi vết thâm đen</p>
                                             </div>
-                                            <div class="clearfix"></div>
-                                            <div class="event__form js-form"></div>
-                                            <div class="event__map js-map"></div>
+                                            <!-- end of block .comment__item-->
                                         </div>
                                     </div>
-                                    <div class="listing__item">
-                                        <div class="event__item js-event-item">
-                                            <div class="event__preview"><span class="event__status">Khuyến mãi</span><a href="event_details.html"
-                                                                                                                      class="event__preview-link"><img
-                                                            src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-1.jpg"
-                                                            alt="" class="event__preview-img"></a>
-                                                <div class="event__links"><a class="event__link-item js-event-location">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-location"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <div class="event__link-item event__link-item--share">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-share"></use>
-                                                        </svg>
-                                                        <div class="social social--share"><a href="#" class="social__item"><i
-                                                                        class="fa fa-facebook"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-twitter"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-google-plus"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-odnoklassniki"></i></a></div>
-                                                    </div>
-                                                    <a class="event__link-item">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-phone"></use>
-                                                        </svg>
-                                                    </a><a class="event__link-item js-event-mail">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-mail"></use>
-                                                        </svg>
-                                                    </a>
-                                                </div>
+                                    <div class="comment__item">
+                                        <div class="comment__avatar"><img src="/modules/themes/frontend.webelieve/assets/media-demo/avatars/2.png" alt=""></div>
+                                        <div class="comment__info">
+                                            <div class="comment__info-left">
+                                                <h3 class="comment__author">Thanh An</h3>
+                                                <time datetime="2016" class="comment__time">tháng 7 năm 2015 lúc 9:15 am</time>
                                             </div>
-                                            <div class="event__details">
-                                                <h3 class="event__name"><a href="event_details.html">FLASH SALE 30% – LASER TONING ĐÁNH BẬT TÀN
-                                                        NHANG</a></h3>
-                                                <h5 class="event__organaizer">Danh muc -<strong>Tan nhan</strong></h5>
-                                                <div class="event__info">
-                                                    <h6 class="event__location">
-                                                        Bệnh viện thẩm mỹ triển khai chương trình khuyến mại FLASH SALE 30% chi phí điều trị
-                                                        tàn
-                                                        nhang – Laser Toning đánh bật tàn nhang theo công thức chuyên gia. Với mong muốn mang tới
-                                                        những dịch vụ làm đẹp tốt nhất với mức chi phí hợp lý dành cho mọi khách hàng. Chương trình áp
-                                                        dụng cho 30 khách hàng đăng ký sớm nhất từ ngày 23/6 – 5/7/2016.
-                                                    </h6>
-                                                </div>
-                                                <div class="clearfix"></div>
-                                                <div class="event__price">$ Mien phi</div>
-                                                <a href="event_details.html" class="btn--link event__more">Đọc thêm</a>
+                                            <div class="comment__info-right">
+                                                <button class="btn--flat-small comment__reply js-comment-reply">Trả lời</button>
                                             </div>
-                                            <div class="clearfix"></div>
-                                            <div class="event__form js-form"></div>
-                                            <div class="event__map js-map"></div>
                                         </div>
-                                    </div>
-                                    <div class="listing__item">
-                                        <div class="event__item js-event-item">
-                                            <div class="event__preview"><span class="event__status">passed</span><a href="event_details.html"
-                                                                                                                    class="event__preview-link"><img
-                                                            src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-2.jpg"
-                                                            alt="" class="event__preview-img"></a>
-                                                <div class="event__links"><a class="event__link-item js-event-location">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-location"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <div class="event__link-item event__link-item--share">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-share"></use>
-                                                        </svg>
-                                                        <div class="social social--share"><a href="#" class="social__item"><i
-                                                                        class="fa fa-facebook"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-twitter"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-google-plus"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-odnoklassniki"></i></a></div>
-                                                    </div>
-                                                    <a class="event__link-item">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-phone"></use>
-                                                        </svg>
-                                                    </a><a class="event__link-item js-event-mail">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-mail"></use>
-                                                        </svg>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="event__details">
-                                                <h3 class="event__name"><a href="event_details.html">TRỊ NÁM DA HIỆU QUẢ TẠI BỆNH VIỆN THẨM MỸ...</a></h3>
-                                                <h5 class="event__organaizer">Danh Muc -<strong>Tham My Da</strong></h5>
-                                                <div class="event__info">
-                                                    <h6 class="event__location">
-                                                        Bệnh viện thẩm mỹ là địa chỉ trị nám da hiệu quả và uy tín. Với đội ngũ bác sĩ giỏi,
-                                                        có kinh nghiệm trong điều trị thẩm mỹ da cùng việc ứng dụng thành công các cách trị nám da
-                                                        bằng công nghệ tiên tiến như công nghệ Laser Toning, công nghệ E-light, công nghệ Mesotheraphy
-                                                        và công nghệ Peeling, mang đến cho khách hàng những phương pháp trị nám da hiệu quả cao, an
-                                                        toàn, không đau rát và không để lại sẹo
-                                                    </h6>
-                                                </div>
-                                                <div class="clearfix"></div>
-                                                <div class="event__price">$ 890.000 VND</div>
-                                                <a href="event_details.html" class="btn--link event__more">Đọc thêm</a>
-                                            </div>
-                                            <div class="clearfix"></div>
-                                            <div class="event__form js-form"></div>
-                                            <div class="event__map js-map"></div>
+                                        <div class="comment__body">
+                                            <p> Với ứng dụng nguồn năng lượng xúc tác trong việc điều trị vào vùng nhũ hoa làm tan biến mọi vết thâm đen</p>
                                         </div>
-                                    </div>
-                                    <div class="listing__item">
-                                        <div class="event__item js-event-item">
-                                            <div class="event__preview"><span class="event__status">khuyến mãi</span><a href="event_details.html"
-                                                                                                                      class="event__preview-link"><img
-                                                            src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-1.jpg"
-                                                            alt="" class="event__preview-img"></a>
-                                                <div class="event__links"><a class="event__link-item js-event-location">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-location"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <div class="event__link-item event__link-item--share">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-share"></use>
-                                                        </svg>
-                                                        <div class="social social--share"><a href="#" class="social__item"><i
-                                                                        class="fa fa-facebook"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-twitter"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-google-plus"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-odnoklassniki"></i></a></div>
-                                                    </div>
-                                                    <a class="event__link-item">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-phone"></use>
-                                                        </svg>
-                                                    </a><a class="event__link-item js-event-mail">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-mail"></use>
-                                                        </svg>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="event__details">
-                                                <h3 class="event__name"><a href="event_details.html">FLASH SALE 30% – LASER TONING ĐÁNH BẬT TÀN
-                                                        NHANG</a></h3>
-                                                <h5 class="event__organaizer">Danh muc -<strong>Tan nhan</strong></h5>
-                                                <div class="event__info">
-                                                    <h6 class="event__location">
-                                                        Bệnh viện thẩm mỹ triển khai chương trình khuyến mại FLASH SALE 30% chi phí điều trị
-                                                        tàn
-                                                        nhang – Laser Toning đánh bật tàn nhang theo công thức chuyên gia. Với mong muốn mang tới
-                                                        những dịch vụ làm đẹp tốt nhất với mức chi phí hợp lý dành cho mọi khách hàng. Chương trình áp
-                                                        dụng cho 30 khách hàng đăng ký sớm nhất từ ngày 23/6 – 5/7/2016.
-                                                    </h6>
-                                                </div>
-                                                <div class="clearfix"></div>
-                                                <div class="event__price">$ Mien phi</div>
-                                                <a href="event_details.html" class="btn--link event__more">Đọc thêm</a>
-                                            </div>
-                                            <div class="clearfix"></div>
-                                            <div class="event__form js-form"></div>
-                                            <div class="event__map js-map"></div>
-                                        </div>
-                                    </div>
-                                    <div class="listing__item">
-                                        <div class="event__item js-event-item">
-                                            <div class="event__preview"><span class="event__status">passed</span><a href="event_details.html"
-                                                                                                                    class="event__preview-link"><img
-                                                            src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-3.jpg"
-                                                            alt="" class="event__preview-img"></a>
-                                                <div class="event__links"><a class="event__link-item js-event-location">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-location"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <div class="event__link-item event__link-item--share">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-share"></use>
-                                                        </svg>
-                                                        <div class="social social--share"><a href="#" class="social__item"><i
-                                                                        class="fa fa-facebook"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-twitter"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-google-plus"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-odnoklassniki"></i></a></div>
-                                                    </div>
-                                                    <a class="event__link-item">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-phone"></use>
-                                                        </svg>
-                                                    </a><a class="event__link-item js-event-mail">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-mail"></use>
-                                                        </svg>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="event__details">
-                                                <h3 class="event__name"><a href="event_details.html">TRỊ NÁM DA HIỆU QUẢ TẠI BỆNH VIỆN THẨM MỸ...</a></h3>
-                                                <h5 class="event__organaizer">Danh Muc -<strong>Tham My Da</strong></h5>
-                                                <div class="event__info">
-                                                    <h6 class="event__location">
-                                                        Bệnh viện thẩm mỹ là địa chỉ trị nám da hiệu quả và uy tín. Với đội ngũ bác sĩ giỏi,
-                                                        có kinh nghiệm trong điều trị thẩm mỹ da cùng việc ứng dụng thành công các cách trị nám da
-                                                        bằng công nghệ tiên tiến như công nghệ Laser Toning, công nghệ E-light, công nghệ Mesotheraphy
-                                                        và công nghệ Peeling, mang đến cho khách hàng những phương pháp trị nám da hiệu quả cao, an
-                                                        toàn, không đau rát và không để lại sẹo
-                                                    </h6>
-                                                </div>
-                                                <div class="clearfix"></div>
-                                                <div class="event__price">$ 890.000 VND</div>
-                                                <a href="event_details.html" class="btn--link event__more">Đọc thêm</a>
-                                            </div>
-                                            <div class="clearfix"></div>
-                                            <div class="event__form js-form"></div>
-                                            <div class="event__map js-map"></div>
-                                        </div>
-                                    </div>
-                                    <div class="listing__item">
-                                        <div class="event__item js-event-item">
-                                            <div class="event__preview"><span class="event__status">khuyến mãi</span><a href="event_details.html"
-                                                                                                                      class="event__preview-link"><img
-                                                            src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-1.jpg"
-                                                            alt="" class="event__preview-img"></a>
-                                                <div class="event__links"><a class="event__link-item js-event-location">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-location"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <div class="event__link-item event__link-item--share">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-share"></use>
-                                                        </svg>
-                                                        <div class="social social--share"><a href="#" class="social__item"><i
-                                                                        class="fa fa-facebook"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-twitter"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-google-plus"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-odnoklassniki"></i></a></div>
-                                                    </div>
-                                                    <a class="event__link-item">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-phone"></use>
-                                                        </svg>
-                                                    </a><a class="event__link-item js-event-mail">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-mail"></use>
-                                                        </svg>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="event__details">
-                                                <h3 class="event__name"><a href="event_details.html">FLASH SALE 30% – LASER TONING ĐÁNH BẬT TÀN
-                                                        NHANG</a></h3>
-                                                <h5 class="event__organaizer">Danh muc -<strong>Tan nhan</strong></h5>
-                                                <div class="event__info">
-                                                    <h6 class="event__location">
-                                                        Bệnh viện thẩm mỹ triển khai chương trình khuyến mại FLASH SALE 30% chi phí điều trị
-                                                        tàn
-                                                        nhang – Laser Toning đánh bật tàn nhang theo công thức chuyên gia. Với mong muốn mang tới
-                                                        những dịch vụ làm đẹp tốt nhất với mức chi phí hợp lý dành cho mọi khách hàng. Chương trình áp
-                                                        dụng cho 30 khách hàng đăng ký sớm nhất từ ngày 23/6 – 5/7/2016.
-                                                    </h6>
-                                                </div>
-                                                <div class="clearfix"></div>
-                                                <div class="event__price">$ Mien phi</div>
-                                                <a href="event_details.html" class="btn--link event__more">Đọc thêm</a>
-                                            </div>
-                                            <div class="clearfix"></div>
-                                            <div class="event__form js-form"></div>
-                                            <div class="event__map js-map"></div>
-                                        </div>
-                                    </div>
-                                    <div class="listing__item">
-                                        <div class="event__item js-event-item">
-                                            <div class="event__preview"><span class="event__status">passed</span><a href="event_details.html"
-                                                                                                                    class="event__preview-link"><img
-                                                            src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-2.jpg"
-                                                            alt="" class="event__preview-img"></a>
-                                                <div class="event__links"><a class="event__link-item js-event-location">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-location"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <div class="event__link-item event__link-item--share">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-share"></use>
-                                                        </svg>
-                                                        <div class="social social--share"><a href="#" class="social__item"><i
-                                                                        class="fa fa-facebook"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-twitter"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-google-plus"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-odnoklassniki"></i></a></div>
-                                                    </div>
-                                                    <a class="event__link-item">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-phone"></use>
-                                                        </svg>
-                                                    </a><a class="event__link-item js-event-mail">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-mail"></use>
-                                                        </svg>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="event__details">
-                                                <h3 class="event__name"><a href="event_details.html">TRỊ NÁM DA HIỆU QUẢ TẠI BỆNH VIỆN THẨM MỸ...</a></h3>
-                                                <h5 class="event__organaizer">Danh Muc -<strong>Tham My Da</strong></h5>
-                                                <div class="event__info">
-                                                    <h6 class="event__location">
-                                                        Bệnh viện thẩm mỹ là địa chỉ trị nám da hiệu quả và uy tín. Với đội ngũ bác sĩ giỏi,
-                                                        có kinh nghiệm trong điều trị thẩm mỹ da cùng việc ứng dụng thành công các cách trị nám da
-                                                        bằng công nghệ tiên tiến như công nghệ Laser Toning, công nghệ E-light, công nghệ Mesotheraphy
-                                                        và công nghệ Peeling, mang đến cho khách hàng những phương pháp trị nám da hiệu quả cao, an
-                                                        toàn, không đau rát và không để lại sẹo
-                                                    </h6>
-                                                </div>
-                                                <div class="clearfix"></div>
-                                                <div class="event__price">$ 890.000 VND</div>
-                                                <a href="event_details.html" class="btn--link event__more">Đọc thêm</a>
-                                            </div>
-                                            <div class="clearfix"></div>
-                                            <div class="event__form js-form"></div>
-                                            <div class="event__map js-map"></div>
-                                        </div>
-                                    </div>
-                                    <div class="listing__item">
-                                        <div class="event__item js-event-item">
-                                            <div class="event__preview"><span class="event__status">khuyến mãi</span><a href="event_details.html"
-                                                                                                                      class="event__preview-link"><img
-                                                            src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-1.jpg"
-                                                            alt="" class="event__preview-img"></a>
-                                                <div class="event__links"><a class="event__link-item js-event-location">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-location"></use>
-                                                        </svg>
-                                                    </a>
-                                                    <div class="event__link-item event__link-item--share">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-share"></use>
-                                                        </svg>
-                                                        <div class="social social--share"><a href="#" class="social__item"><i
-                                                                        class="fa fa-facebook"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-twitter"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-google-plus"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-odnoklassniki"></i></a></div>
-                                                    </div>
-                                                    <a class="event__link-item">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-phone"></use>
-                                                        </svg>
-                                                    </a><a class="event__link-item js-event-mail">
-                                                        <svg class="event__link-svg">
-                                                            <use xlink:href="#icon-mail"></use>
-                                                        </svg>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="event__details">
-                                                <h3 class="event__name"><a href="event_details.html">FLASH SALE 30% – LASER TONING ĐÁNH BẬT TÀN
-                                                        NHANG</a></h3>
-                                                <h5 class="event__organaizer">Danh muc -<strong>Tan nhan</strong></h5>
-                                                <div class="event__info">
-                                                    <h6 class="event__location">
-                                                        Bệnh viện thẩm mỹ triển khai chương trình khuyến mại FLASH SALE 30% chi phí điều trị
-                                                        tàn
-                                                        nhang – Laser Toning đánh bật tàn nhang theo công thức chuyên gia. Với mong muốn mang tới
-                                                        những dịch vụ làm đẹp tốt nhất với mức chi phí hợp lý dành cho mọi khách hàng. Chương trình áp
-                                                        dụng cho 30 khách hàng đăng ký sớm nhất từ ngày 23/6 – 5/7/2016.
-                                                    </h6>
-                                                </div>
-                                                <div class="clearfix"></div>
-                                                <div class="event__price">$ Mien phi</div>
-                                                <a href="event_details.html" class="btn--link event__more">Đọc thêm</a>
-                                            </div>
-                                            <div class="clearfix"></div>
-                                            <div class="event__form js-form"></div>
-                                            <div class="event__map js-map"></div>
-                                        </div>
+                                        <!-- end of block .comment__item-->
                                     </div>
                                 </div>
                             </div>
@@ -1160,26 +781,49 @@
                         <!-- END WIDGET CONTENT-->
                     </div>
                     <!-- END WIDGET-->
-                    <!-- BEGIN PAGINATION-->
-                    <nav class="pagination"><a class="pagination__btn">
-                            <svg class="pagination__btn-svg">
-                                <use xlink:href="#icon-arrow-left"></use>
-                            </svg>
-                            <span class="pagination__btn-span">Trang trước</span></a>
-                        <ul class="pagination__pages">
-                            <li><a href="#">1</a></li>
-                            <li class="active"><span>2</span></li>
-                            <li><a href="#">3</a></li>
-                            <li><span>...</span></li>
-                            <li><a href="#">15</a></li>
-                        </ul>
-                        <a class="pagination__btn"><span class="pagination__btn-span">Trang tiếp theo</span>
-                            <svg class="pagination__btn-svg">
-                                <use xlink:href="#icon-arrow-right"></use>
-                            </svg>
-                        </a>
-                    </nav>
-                    <!-- END PAGINATION-->
+                    <!-- BEGIN WIDGET-->
+                    <div class="widget js-widget widget--card">
+                        <!-- BEGIN WIDGET HEADER-->
+                        <div class="widget__header">
+                            <h2 class="widget__title js-widget-title">Để lại nhận xét</h2>
+                        </div>
+                        <!-- END WIDGET HEADER-->
+                        <!-- BEGIN WIDGET CONTENT-->
+                        <div class="widget__content">
+                            <div class="comment__form">
+                                <!-- BEGIN FORM-->
+                                <form action="#" class="form js-parsley form--comment">
+                                    <div class="row">
+                                        <div class="form-group form-group--lg-4">
+                                            <label for="comment-name" class="control-label">Tên của bạn *</label>
+                                            <input type="text" id="comment-name" required="required" class="form-control"/>
+                                        </div>
+                                        <div class="form-group form-group--lg-4">
+                                            <label for="comment-email" class="control-label">Địa chỉ email *</label>
+                                            <input type="email" id="comment-email" required="required" class="form-control"/>
+                                        </div>
+                                        <div class="form-group form-group--lg-4">
+                                            <label for="comment-phone" class="control-label">Số điện thoại</label>
+                                            <input type="text" id="comment-phone" required="required" class="form-control"/>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group form-group--lg-12">
+                                            <label for="comment-message" class="control-label">Tin nhắn</label>
+                                            <textarea id="comment-message" required="required" class="form-control"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form__buttons">
+                                        <button type="submit" class="btn--flat form__btn">Gửi</button>
+                                    </div>
+                                </form>
+                                <!-- END FORM-->
+                            </div>
+                            <!-- end of block .comment__form-->
+                        </div>
+                        <!-- END WIDGET CONTENT-->
+                    </div>
+                    <!-- END WIDGET-->
                 </div>
                 <!-- END MAIN CONTENT-->
                 <!-- BEGIN SIDEBAR-->

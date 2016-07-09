@@ -16,7 +16,7 @@ class BelieveController extends \Modules\IzCore\Http\Controllers\ThemeAbstractCo
     }
 
     public function getPost() {
-        $this->setTheme('frontend.webelieve')->setLayout('default')->setViewFile('post-grid-default');
+        $this->setTheme('frontend.webelieve')->setLayout('default')->setViewFile('post-detail-default');
         return $this->renderHtml();
     }
 }

@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, shrink-to-fit=no">
     <meta name="format-detection" content="telephone=no">
     <!-- Loading Source Sans Pro, Cambay, Teko font that is used in this theme-->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=vietnamese" rel="stylesheet">
     {{--Assets style in bower--}}
     {!! Theme::asset()->styles() !!}
 

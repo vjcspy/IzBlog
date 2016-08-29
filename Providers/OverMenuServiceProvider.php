@@ -16,7 +16,7 @@ class OverMenuServiceProvider extends ServiceProvider {
     public function boot() {
         /** @var \Modules\IzCore\Repositories\IzMenu $izMenu */
         $izMenu = $this->app['izMenu'];
-        
+
         $izAdminNav = $izMenu->getMenu('izAdminNav');
 
         if ($izMenu->getParentNamePosition($izAdminNav, 'blog_post')) {
@@ -27,17 +27,22 @@ class OverMenuServiceProvider extends ServiceProvider {
                 'izAdminNav',
                 [
                     [
-                        'name_id' => 'post',
-                        'name' => 'Post',
-                        'url' => 'post',
-                        'badge' => '1',
-                        'icon-class' => 'icon mdi-editor-border-color i-20',
-                        'priority' => 3,
+                        'name_id'       => 'post',
+                        'name'          => 'Post',
+                        'url'           => 'post',
+                        'badge'         => '1',
+                        'icon-class'    => 'icon mdi-editor-border-color i-20',
+                        'priority'      => 3,
                         'active-router' => 'post',
-                        'children' => [
+                        'children'      => [
                             [
-                                'name' => 'Categories',
-                                'url' => 'post.categories',
+                                'name'     => 'Categories',
+                                'url'      => 'post.categories',
+                                'priority' => 2
+                            ],
+                            [
+                                'name'     => 'Article',
+                                'url'      => 'post.article',
                                 'priority' => 1
                             ]
                         ]

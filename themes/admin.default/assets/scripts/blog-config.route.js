@@ -51,7 +51,22 @@ angular.module('app')
                                 [
                                     'angular-material-data-table',
                                     'modules/themes/admin.default/assets/scripts/controllers/blog/post/category.js'
-                                ]).deps
+                                ]
+                            ).deps
+                        }
+                    })
+                    .state('post.article', {
+                        url: '/article',
+                        data: {title: 'Bài viết', folded: true},
+                        templateUrl: "modules/themes/admin.default/assets/views/blog/post/article.html",
+                        controller: 'BlogArticleCtrl',
+                        resolve: {
+                            deps: load(
+                                [
+                                    'modules/themes/admin.default/assets/scripts/controllers/blog/post/article.js',
+                                    'textAngular'
+                                ]
+                            ).deps
                         }
                     })
                 ;

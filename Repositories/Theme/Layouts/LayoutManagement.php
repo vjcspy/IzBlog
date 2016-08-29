@@ -38,7 +38,7 @@ class LayoutManagement extends IzObject {
      * @return mixed
      */
     public function scanLayout() {
-        $key = $this->getKey(['scan', 'all-layout', 'in', 'all-modules', 'but', 'in', 'current-theme']);
+        $key = $this->getKey(['scan', 'all-layout', 'in', 'all-modules', 'but', 'only', 'in', 'current-theme']);
         if (is_null($this->getData($key))) {
             $pathModules       = $this->module->getPath();
             $moduleDirectories = scandir($pathModules);
@@ -47,11 +47,11 @@ class LayoutManagement extends IzObject {
                 if (!in_array($moduleDir, [".", ".."])) {
                     /*Layouts path  của module hiện tại*/
                     $currentFolderLayoutsPathInModule = $pathModules .
-                        '/' .
-                        $moduleDir .
-                        '/themes/' .
-                        $this->izTheme->getCurrentThemeName() .
-                        '/layouts';
+                                                        '/' .
+                                                        $moduleDir .
+                                                        '/themes/' .
+                                                        $this->izTheme->getCurrentThemeName() .
+                                                        '/layouts';
 
                     /*Check layouts path file exist*/
                     if (!file_exists($currentFolderLayoutsPathInModule))

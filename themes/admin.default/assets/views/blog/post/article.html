@@ -1,5 +1,47 @@
-
-<p class="m-b-md">A Lightweight, Two-Way-Bound & Totally Awesome Angular.js Text-Editor <a href="https://github.com/fraywing/textAngular/" target="blank"><i class="fa fa-link text-muted"></i></a></p>
-<div>
-    <div text-angular ng-model="htmlVariable" class="btn-groups"></div>
+<div class="row">
+    <div class="panel panel-default">
+        <div class="panel-heading bg-white">
+            Create New Post<br>
+            <small class="text-muted">
+                Tao Bai Viet Moi
+            </small>
+        </div>
+        <div class="panel-body">
+            <form>
+                <div class="form-group">
+                    <label for="status">Status</label>
+                    <select id="status" class="form-control">
+                        <option value=""> -- Select One --</option>
+                        <option value="1"> Enable</option>
+                        <option value="0">Disable</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="category">Category</label>
+                    <select id="category" class="form-control">
+                        <option value=""> -- Select One --</option>
+                        <option value="1"> 234</option>
+                        <option value="2">345</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="content">Content</label>
+                    <textarea id="content" ui-tinymce="tinymceOptions" ng-model="tinymceModel"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="price">Price</label>
+                    <input type="number" class="form-control" id="price">
+                </div>
+                <div class="form-group">
+                    <label for="label">Label</label>
+                    <select id="label" class="form-control">
+                        <option value=""> -- Select One --</option>
+                        <option value="1"> 234</option>
+                        <option value="2">345</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-default m-b">Submit</button>
+            </form>
+        </div>
+    </div>
 </div>

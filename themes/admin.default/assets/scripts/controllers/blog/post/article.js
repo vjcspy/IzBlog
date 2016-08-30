@@ -2,6 +2,28 @@
     "use strict";
     angular.module('app')
         .controller('BlogArticleCtrl', ['$scope', function ($scope) {
-            $scope.htmlVariable = '<h3>Try me!</h3><p>textAngular is a super cool WYSIWYG Text Editor directive for AngularJS</p><p><b>Features:</b></p><ol><li>Automatic Seamless Two-Way-Binding</li><li style="color: blue;">Super Easy <b>Theming</b> Options</li><li>Simple Editor Instance Creation</li><li>Safely Parses Html for Custom Toolbar Icons</li><li>Doesn&apos;t Use an iFrame</li><li>Works with Firefox, Chrome, and IE8+</li></ol><p><b>Code at GitHub:</b> <a href="https://github.com/fraywing/textAngular">Here</a> </p>';
+            $scope.tinymceModel = 'Initial content';
+
+            $scope.getContent = function () {
+                console.log('Editor content:', $scope.tinymceModel);
+            };
+
+            $scope.setContent = function () {
+                $scope.tinymceModel = 'Time: ' + (new Date());
+            };
+
+            $scope.tinymceOptions = {
+                selector: 'textarea',
+                height: 500,
+                theme: 'modern',
+                plugins: [
+                    'advlist autolink lists link image charmap print preview hr anchor pagebreak',
+                    'searchreplace wordcount visualblocks visualchars code fullscreen',
+                    'insertdatetime media nonbreaking save table contextmenu directionality',
+                    'emoticons template paste textcolor colorpicker textpattern imagetools'
+                ],
+                toolbar1: 'insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image',
+                toolbar2: 'print preview media | forecolor backcolor emoticons'
+            };
         }]);
 })(angular);

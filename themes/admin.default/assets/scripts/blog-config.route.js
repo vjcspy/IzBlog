@@ -64,7 +64,7 @@ angular.module('app')
                             deps: load(
                                 [
                                     'modules/themes/admin.default/assets/scripts/controllers/blog/post/article.js',
-                                    'textAngular'
+                                    'tinymce'
                                 ]
                             ).deps
                         }

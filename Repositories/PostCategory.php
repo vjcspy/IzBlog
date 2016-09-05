@@ -41,7 +41,7 @@ class PostCategory extends IzObject {
     }
 
     /**
-     * @return \Modules\IzBlog\Entities\PostCategory
+     * @return \Illuminate\Database\Eloquent\Builder|\Modules\IzBlog\Entities\PostCategory
      */
     public function getRoot() {
         try {
@@ -50,7 +50,8 @@ class PostCategory extends IzObject {
                     'name' => self::ROOT_CATEGORY_NAME
                 ]
             )->firstOrFail();
-        } catch (\Illuminate\Database\Eloquent\ModelNotFoundException $e) {
+        }
+        catch (\Illuminate\Database\Eloquent\ModelNotFoundException $e) {
             return $this->createRoot();
         }
     }
@@ -83,7 +84,6 @@ class PostCategory extends IzObject {
                     [
                         'name'     => 'Desktops',
                         'children' => [
-                            // These will be created
                             ['name' => 'Towers Only'],
                             ['name' => 'Desktop Packages'],
                             ['name' => 'All-in-One Computers'],
@@ -91,7 +91,7 @@ class PostCategory extends IzObject {
                         ]],
                     ['name' => 'Monitors'],
                 ]],
-            ['id' => 9, 'name' => 'Cell Phones']
+            ['name' => 'Cell Phones']
         ];
         $this->getRoot()->makeTree($categories);
     }
@@ -117,7 +117,8 @@ class PostCategory extends IzObject {
     private function getChildNode($nodes) {
         return array_map(
             function ($node) {
-                $node['nodes'] = $this->getChildNode($node->children());
+                $node['children'] = $this->getChildNode($node->children());
+                $node['label']    = $node->name;
 
                 return $node;
             },
@@ -140,4 +141,58 @@ class PostCategory extends IzObject {
         return $arrNodes;
     }
 
+    /**
+     * Create new node of category
+     *
+     * @param $arrData
+     *
+     * @return \Illuminate\Database\Eloquent\Model|string
+     */
+    public function createNewCat($arrData) {
+        if ($arrData['parentId'] == 'ROOT') {
+            return $this->getRoot()->children()->create(
+                [
+                    'name'   => $arrData['name'],
+                    'enable' => isset($arData['enable']) ? $arData['enable'] : 1
+                ]);
+        }
+        else {
+            try {
+                $node = $this->postCategoryModel->query()->where(
+                    [
+                        'id' => $arrData['parentId']
+                    ]
+                )->firstOrFail();
+
+                return $node->children()->create(
+                    [
+                        'name'   => $arrData['name'],
+                        'enable' => isset($arData['enable']) ? $arData['enable'] : 1
+                    ]);
+            }
+            catch (\Illuminate\Database\Eloquent\ModelNotFoundException $e) {
+                return $e->getMessage();
+            }
+        }
+    }
+
+    public function saveDataCategory($arrData) {
+        if ($arrData['id'] == 'ROOT')
+            return true;
+        else {
+            try {
+                $node = $this->postCategoryModel->query()->where(
+                    [
+                        'id' => $arrData['id']
+                    ]
+                )->firstOrFail();
+
+                $node->enable = $arrData['enable'];
+                $node->save();
+            }
+            catch (\Illuminate\Database\Eloquent\ModelNotFoundException $e) {
+                return $e->getMessage();
+            }
+        }
+    }
 }

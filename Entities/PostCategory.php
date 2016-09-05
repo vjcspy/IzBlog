@@ -103,7 +103,8 @@ class PostCategory extends Node {
 
     /**
      * @param $id
-     * @return bool|\Illuminate\Database\Eloquent\Model|static
+     *
+     * @return bool|\Illuminate\Database\Eloquent\Builder|\Modules\IzBlog\Entities\PostCategory
      */
     public function loadById($id) {
         try {

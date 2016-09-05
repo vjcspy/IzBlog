@@ -10,7 +10,7 @@
             <form>
                 <div class="form-group">
                     <label for="status">Status</label>
-                    <select id="status" class="form-control">
+                    <select id="status" class="form-control" ng-model="data.article.post_status">
                         <option value=""> -- Select One --</option>
                         <option value="1"> Enable</option>
                         <option value="0">Disable</option>
@@ -18,7 +18,7 @@
                 </div>
                 <div class="form-group">
                     <label for="category">Category</label>
-                    <select id="category" class="form-control">
+                    <select id="category" class="form-control" ng-model="data.article.category_id">
                         <option value=""> -- Select One --</option>
                         <option value="1"> 234</option>
                         <option value="2">345</option>
@@ -26,21 +26,21 @@
                 </div>
                 <div class="form-group">
                     <label for="content">Content</label>
-                    <textarea id="content" ui-tinymce="tinymceOptions" ng-model="tinymceModel"></textarea>
+                    <textarea id="content" ui-tinymce="tinymceOptions" ng-model="data.article.post_content"></textarea>
                 </div>
                 <div class="form-group">
                     <label for="price">Price</label>
-                    <input type="number" class="form-control" id="price">
+                    <input type="number" class="form-control" id="price" ng-model="data.article.price">
                 </div>
                 <div class="form-group">
                     <label for="label">Label</label>
-                    <select id="label" class="form-control">
+                    <select ng-model="data.article.label_type" id="label" class="form-control">
                         <option value=""> -- Select One --</option>
-                        <option value="1"> 234</option>
-                        <option value="2">345</option>
+                        <option value="1"> Sales</option>
+                        <option value="2"> Normal</option>
                     </select>
                 </div>
-                <button type="submit" class="btn btn-default m-b">Submit</button>
+                <button ng-click="submitPost()" class="btn btn-default m-b">Submit</button>
             </form>
         </div>
     </div>

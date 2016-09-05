@@ -27,6 +27,9 @@ class CreateIzblogPostTable extends Migration {
                 $table->char('post_type', 20);
                 $table->integer('post_parent_id');
                 $table->integer('comment_count');
+                $table->unsignedInteger('category_id');
+                $table->decimal('price');
+                $table->tinyInteger('label_type');
                 $table->timestamps();
                 $table->index('id');
             });

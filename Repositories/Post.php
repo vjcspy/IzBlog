@@ -68,6 +68,14 @@ class Post extends IzObject implements EntityRepositoryInterface {
      */
     public function save($data) {
         // TODO: Implement save() method.
+        if (isset($data['id'])) {
+            $post = $this->post->query()->firstOrNew(['id' => $data['id']])->update($data);
+        }
+        else {
+            $post = $this->post->create($data);
+        }
+
+        return $post;
     }
 
     /**

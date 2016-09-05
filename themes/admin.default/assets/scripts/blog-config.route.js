@@ -49,14 +49,17 @@ angular.module('app')
                         resolve: {
                             deps: load(
                                 [
-                                    'angular-material-data-table',
+                                    'xeditable',
                                     'modules/themes/admin.default/assets/scripts/controllers/blog/post/category.js'
                                 ]
-                            ).deps
+                            ).deps,
+                            postCategories: function (BlogCategory) {
+                                return BlogCategory.getCategoriesFromServer();
+                            }
                         }
                     })
                     .state('post.article', {
-                        url: '/article',
+                        url: '/article/:articleId',
                         data: {title: 'Bài viết', folded: true},
                         templateUrl: "modules/themes/admin.default/assets/views/blog/post/article.html",
                         controller: 'BlogArticleCtrl',
@@ -66,7 +69,13 @@ angular.module('app')
                                     'modules/themes/admin.default/assets/scripts/controllers/blog/post/article.js',
                                     'tinymce'
                                 ]
-                            ).deps
+                            ).deps,
+                            articleData: function ($stateParams, Article) {
+                                if (!!$stateParams['article_id']) {
+                                    return Article.getCurrentArticle($stateParams['article_id']);
+                                } else
+                                    return {};
+                            }
                         }
                     })
                 ;

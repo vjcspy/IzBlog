@@ -26,6 +26,7 @@ class CreateIzblogPostCategoriesTable extends Migration {
                 $table->integer('depth')->nullable();
                 $table->string('name');
                 $table->string('slug');
+                $table->tinyInteger('enable');
                 $table->mediumText('description');
 
                 // Add needed columns here (f.ex: name, slug, path, etc.)

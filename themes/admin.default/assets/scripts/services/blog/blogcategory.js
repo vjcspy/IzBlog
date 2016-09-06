@@ -37,5 +37,8 @@
                     }
                 ]
             };
+            this.getCategoryForArticle = function () {
+                
+            }
         }]);
 })(angular);

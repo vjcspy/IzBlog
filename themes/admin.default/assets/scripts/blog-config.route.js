@@ -78,6 +78,19 @@ angular.module('app')
                             }
                         }
                     })
+                    .state('post.articlecrud', {
+                        url: '/articlecrud',
+                        data: {title: 'Bài viết', folded: true},
+                        templateUrl: "modules/themes/admin.default/assets/views/blog/post/article_list.html",
+                        controller: 'ArticleCrudCtrl',
+                        resolve: {
+                            deps: load(
+                                [
+                                    'modules/themes/admin.default/assets/scripts/controllers/blog/post/articlecrud.js',
+                                ]
+                            ).deps
+                        }
+                    })
                 ;
 
                 function load(srcs, callback) {

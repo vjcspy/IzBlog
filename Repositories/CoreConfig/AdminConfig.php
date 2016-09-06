@@ -16,7 +16,8 @@ class AdminConfig implements ConfigInterface {
     public function handle() {
         // TODO: Implement handle() method.
         return [
-            'blog_post_url' => 'izblog/post'
+            'blog_post_url' => 'izblog/post',
+            'article_table_url' => 'izblog/articletable',
         ];
     }
 }

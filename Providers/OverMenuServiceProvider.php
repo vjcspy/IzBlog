@@ -44,6 +44,11 @@ class OverMenuServiceProvider extends ServiceProvider {
                                 'name'     => 'Article',
                                 'url'      => 'post.article',
                                 'priority' => 1
+                            ],
+                            [
+                                'name'     => 'Article Crud',
+                                'url'      => 'post.articlecrud',
+                                'priority' => 3
                             ]
                         ]
                     ],

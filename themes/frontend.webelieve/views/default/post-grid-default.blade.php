@@ -737,7 +737,7 @@
                                                         @endif
                                                     </span>
                                                     <a
-                                                            href="event_details.html"
+                                                            href="{{url('izblog/believe/post') . '?post_id'. $post['id']}}"
                                                             class="event__preview-link"><img
                                                                 src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-2.jpg"
                                                                 alt="" class="event__preview-img"></a>

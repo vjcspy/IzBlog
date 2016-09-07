@@ -54,7 +54,7 @@ class DefaultPostDetailLayout implements AdditionViewInterface {
     public function handle() {
         // TODO: Implement handle() method.
         $requestData = $this->getRequest()->all();
-        if ($requestData['post_id']) {
+        if (isset($requestData['post_id'])) {
             $postData = $this->getPostManagement()->getById($requestData['post_id'])->toArray();
         }
         else

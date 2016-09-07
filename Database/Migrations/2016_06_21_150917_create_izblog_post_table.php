@@ -19,6 +19,7 @@ class CreateIzblogPostTable extends Migration {
                 $table->dateTime('post_date');
                 $table->longText('post_content');
                 $table->longText('post_short_content');
+                $table->longText('post_image_url');
                 $table->text('post_title');
                 $table->char('post_status', 20);
                 $table->char('ping_status', 20);

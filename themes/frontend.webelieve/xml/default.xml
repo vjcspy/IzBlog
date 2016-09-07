@@ -21,5 +21,6 @@
     </custom_assets>
     <view_data>
         <instance name="\Modules\IzAdmin\Repositories\Theme\View\IzAdmin\Index"/>
+        <instance name="\Modules\IzBlog\Repositories\Theme\Views\Data\DefaultLayout"/>
     </view_data>
 </xml>

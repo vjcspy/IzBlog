@@ -169,7 +169,8 @@
                                                     class="nav__event-img"/><span
                                                     class="nav__event-hover">Events Calendar</span></a>
                                     </li>
-                                    <li class="nav__group nav__group--event-list has-children"><a href="undefined.html" class="nav__subtitle">khuyến mãi
+                                    <li class="nav__group nav__group--event-list has-children"><a href="undefined.html" class="nav__subtitle">khuyến
+                                            mãi
                                             event</a>
                                         <ul class="nav__list">
                                             <li class="nav__item nav__item--title event-list"><a href="event_details.html" class="nav__link">Don’t
@@ -521,8 +522,8 @@
                 <a style="margin-left: 32%;" href="index.html" class="header__logo">
                     <svg class="header__logo-svg">
                         <img
-                        src="/modules/themes/frontend.webelieve/assets/media-demo/events/logo.png" alt=""
-                        class="nav__event-img"/>
+                                src="/modules/themes/frontend.webelieve/assets/media-demo/events/logo.png" alt=""
+                                class="nav__event-img"/>
                     </svg>
                 </a>
                 <!-- BEGIN toolbar-->
@@ -726,10 +727,70 @@
                         <div class="widget__content">
                             <div data-modifier="list" data-view="event" class="event event--list js-switch-view js-event">
                                 <div class="listing listing--list">
+                                    @foreach($posts['data'] as $post)
+                                        <div class="listing__item">
+                                            <div class="event__item js-event-item">
+                                                <div class="event__preview">
+                                                    <span class="event__status">
+                                                        @if ($post['label_type'] == 1)
+                                                            Khuyến mại
+                                                        @endif
+                                                    </span>
+                                                    <a
+                                                            href="event_details.html"
+                                                            class="event__preview-link"><img
+                                                                src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-2.jpg"
+                                                                alt="" class="event__preview-img"></a>
+                                                    <div class="event__links"><a class="event__link-item js-event-location">
+                                                            <svg class="event__link-svg">
+                                                                <use xlink:href="#icon-location"></use>
+                                                            </svg>
+                                                        </a>
+                                                        <div class="event__link-item event__link-item--share">
+                                                            <svg class="event__link-svg">
+                                                                <use xlink:href="#icon-share"></use>
+                                                            </svg>
+                                                            <div class="social social--share"><a href="#" class="social__item"><i
+                                                                            class="fa fa-facebook"></i></a><a href="#" class="social__item"><i
+                                                                            class="fa fa-twitter"></i></a><a href="#" class="social__item"><i
+                                                                            class="fa fa-google-plus"></i></a><a href="#" class="social__item"><i
+                                                                            class="fa fa-odnoklassniki"></i></a></div>
+                                                        </div>
+                                                        <a class="event__link-item">
+                                                            <svg class="event__link-svg">
+                                                                <use xlink:href="#icon-phone"></use>
+                                                            </svg>
+                                                        </a><a class="event__link-item js-event-mail">
+                                                            <svg class="event__link-svg">
+                                                                <use xlink:href="#icon-mail"></use>
+                                                            </svg>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="event__details">
+                                                    <h3 class="event__name"><a href="event_details.html">{{$post['post_title']}}</a>
+                                                    </h3>
+                                                    <h5 class="event__organaizer">Danh Mục -<strong>{{$post['category_id']}}</strong></h5>
+                                                    <div class="event__info">
+                                                        <h6 class="event__location">
+                                                            {{$post['post_short_content']}}
+                                                        </h6>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                    <div class="event__price">$ {{$post['price']}} VND</div>
+                                                    <a href="event_details.html" class="btn--link event__more">Đọc thêm</a>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                                <div class="event__form js-form"></div>
+                                                <div class="event__map js-map"></div>
+                                            </div>
+                                        </div>
+                                    @endforeach
                                     <div class="listing__item">
                                         <div class="event__item js-event-item">
-                                            <div class="event__preview"><span class="event__status">passed</span><a href="event_details.html"
-                                                                                                                    class="event__preview-link"><img
+                                            <div class="event__preview"><span class="event__status">Pass</span><a
+                                                        href="event_details.html"
+                                                        class="event__preview-link"><img
                                                             src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-2.jpg"
                                                             alt="" class="event__preview-img"></a>
                                                 <div class="event__links"><a class="event__link-item js-event-location">
@@ -759,7 +820,8 @@
                                                 </div>
                                             </div>
                                             <div class="event__details">
-                                                <h3 class="event__name"><a href="event_details.html">TRỊ NÁM DA HIỆU QUẢ TẠI BỆNH VIỆN THẨM MỸ...</a></h3>
+                                                <h3 class="event__name"><a href="event_details.html">TRỊ NÁM DA HIỆU QUẢ TẠI BỆNH VIỆN THẨM MỸ...</a>
+                                                </h3>
                                                 <h5 class="event__organaizer">Danh Muc -<strong>Tham My Da</strong></h5>
                                                 <div class="event__info">
                                                     <h6 class="event__location">
@@ -782,7 +844,7 @@
                                     <div class="listing__item">
                                         <div class="event__item js-event-item">
                                             <div class="event__preview"><span class="event__status">Khuyến mãi</span><a href="event_details.html"
-                                                                                                                      class="event__preview-link"><img
+                                                                                                                        class="event__preview-link"><img
                                                             src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-1.jpg"
                                                             alt="" class="event__preview-img"></a>
                                                 <div class="event__links"><a class="event__link-item js-event-location">
@@ -866,7 +928,8 @@
                                                 </div>
                                             </div>
                                             <div class="event__details">
-                                                <h3 class="event__name"><a href="event_details.html">TRỊ NÁM DA HIỆU QUẢ TẠI BỆNH VIỆN THẨM MỸ...</a></h3>
+                                                <h3 class="event__name"><a href="event_details.html">TRỊ NÁM DA HIỆU QUẢ TẠI BỆNH VIỆN THẨM MỸ...</a>
+                                                </h3>
                                                 <h5 class="event__organaizer">Danh Muc -<strong>Tham My Da</strong></h5>
                                                 <div class="event__info">
                                                     <h6 class="event__location">
@@ -889,7 +952,7 @@
                                     <div class="listing__item">
                                         <div class="event__item js-event-item">
                                             <div class="event__preview"><span class="event__status">khuyến mãi</span><a href="event_details.html"
-                                                                                                                      class="event__preview-link"><img
+                                                                                                                        class="event__preview-link"><img
                                                             src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-1.jpg"
                                                             alt="" class="event__preview-img"></a>
                                                 <div class="event__links"><a class="event__link-item js-event-location">
@@ -973,7 +1036,8 @@
                                                 </div>
                                             </div>
                                             <div class="event__details">
-                                                <h3 class="event__name"><a href="event_details.html">TRỊ NÁM DA HIỆU QUẢ TẠI BỆNH VIỆN THẨM MỸ...</a></h3>
+                                                <h3 class="event__name"><a href="event_details.html">TRỊ NÁM DA HIỆU QUẢ TẠI BỆNH VIỆN THẨM MỸ...</a>
+                                                </h3>
                                                 <h5 class="event__organaizer">Danh Muc -<strong>Tham My Da</strong></h5>
                                                 <div class="event__info">
                                                     <h6 class="event__location">
@@ -996,7 +1060,7 @@
                                     <div class="listing__item">
                                         <div class="event__item js-event-item">
                                             <div class="event__preview"><span class="event__status">khuyến mãi</span><a href="event_details.html"
-                                                                                                                      class="event__preview-link"><img
+                                                                                                                        class="event__preview-link"><img
                                                             src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-1.jpg"
                                                             alt="" class="event__preview-img"></a>
                                                 <div class="event__links"><a class="event__link-item js-event-location">
@@ -1080,7 +1144,8 @@
                                                 </div>
                                             </div>
                                             <div class="event__details">
-                                                <h3 class="event__name"><a href="event_details.html">TRỊ NÁM DA HIỆU QUẢ TẠI BỆNH VIỆN THẨM MỸ...</a></h3>
+                                                <h3 class="event__name"><a href="event_details.html">TRỊ NÁM DA HIỆU QUẢ TẠI BỆNH VIỆN THẨM MỸ...</a>
+                                                </h3>
                                                 <h5 class="event__organaizer">Danh Muc -<strong>Tham My Da</strong></h5>
                                                 <div class="event__info">
                                                     <h6 class="event__location">
@@ -1103,7 +1168,7 @@
                                     <div class="listing__item">
                                         <div class="event__item js-event-item">
                                             <div class="event__preview"><span class="event__status">khuyến mãi</span><a href="event_details.html"
-                                                                                                                      class="event__preview-link"><img
+                                                                                                                        class="event__preview-link"><img
                                                             src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-1.jpg"
                                                             alt="" class="event__preview-img"></a>
                                                 <div class="event__links"><a class="event__link-item js-event-location">
@@ -1230,7 +1295,9 @@
                         <!-- BEGIN WIDGET CONTENT-->
                         <div class="widget__content">
                             <div class="textwidget">
-                                <p>Xăm phun là một trong những phương pháp xăm tạm thời, hay chính xác hơn là phun/vẽ màu theo mẫu lên da. Xăm phun có thể sử dụng được cho tất cả mọi người và mọi loại da. - Ưu điểm của xăm phun? Ưu điểm lớn nhất và dễ thấy nhất của xăm phun là hình xăm chỉ tồn tại trong thời gian ngắn</p>
+                                <p>Xăm phun là một trong những phương pháp xăm tạm thời, hay chính xác hơn là phun/vẽ màu theo mẫu lên da. Xăm phun có
+                                    thể sử dụng được cho tất cả mọi người và mọi loại da. - Ưu điểm của xăm phun? Ưu điểm lớn nhất và dễ thấy nhất của
+                                    xăm phun là hình xăm chỉ tồn tại trong thời gian ngắn</p>
                             </div>
                         </div>
                         <!-- END WIDGET CONTENT-->
@@ -1270,7 +1337,7 @@
                                         16D phố Đường Thành, F.Cửa Đông, Hoàn Kiếm, Hà Nội
                                     </dd>
                                     <dt class="address__list-icon"><i class="fa fa-phone"></i></dt>
-                                    <dd class="address__list-body">0437150736|01672635165 - Hotline : 0912211493 có Zalo </dd>
+                                    <dd class="address__list-body">0437150736|01672635165 - Hotline : 0912211493 có Zalo</dd>
                                     <dt class="address__list-icon"><i class="fa fa-envelope-o"></i></dt>
                                     <dd class="address__list-body"><a href=" thammyhoaky@gmail.com"> thammyhoaky@gmail.com</a></dd>
                                 </dl>

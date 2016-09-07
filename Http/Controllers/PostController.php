@@ -55,6 +55,17 @@ class PostController extends BasicController {
         return $this->responseJson();
     }
 
+    public function getCategoriesforpost() {
+        try {
+            $this->setResponseData($this->getPostCategoryManagement()->getAllChildren());
+        }
+        catch (\Exception $e) {
+            $this->setErrorData($e->getMessage());
+        }
+
+        return $this->responseJson();
+    }
+
     /**
      * @param \Illuminate\Http\Request $request
      *

@@ -9,7 +9,7 @@
                 var currentArticle;
                 this.getCurrentArticle = function (articleId) {
                     var defer = $q.defer();
-                    $http.get(IzAdminConfigService.getConfig('blog_post_url', 'admin') + '/categories').then(function (res) {
+                    $http.get(IzAdminConfigService.getConfig('blog_post_url', 'admin') + '/post?article_id=' + articleId).then(function (res) {
                         currentArticle = res.data;
                         return defer.resolve(currentArticle);
                     });

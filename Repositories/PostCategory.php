@@ -195,4 +195,17 @@ class PostCategory extends IzObject {
             }
         }
     }
+
+    public function getAllChildren() {
+        $allChild = $this->getRoot()->getDescendants();
+        $data     = [];
+        foreach ($allChild as $item) {
+            $data [] = [
+                'id'    => $item->id,
+                'label' => $item->name
+            ];
+        }
+
+        return $data;
+    }
 }

@@ -1,11 +1,15 @@
 (function (angular) {
     "use strict";
     angular.module('app')
-        .controller('BlogArticleCtrl', ['$scope', 'articleData', 'Article',
-            function ($scope, articleData, Article) {
+        .controller('BlogArticleCtrl', ['$scope', 'articleData', 'Article', '$stateParams', 'categoriesData', '$state',
+            function ($scope, articleData, Article, $stateParams, categoriesData, $state) {
                 $scope.data = {};
-                $scope.data.article = {};
-
+                $scope.data.article = articleData;
+                $scope.data.categoryData = categoriesData;
+                $scope.data.labelType = [
+                    {label: 'Sales', id: 1},
+                    {label: 'Normal', id: 2}
+                ];
                 $scope.getContent = function () {
                     console.log('Editor content:', $scope.tinymceModel);
                 };
@@ -28,7 +32,9 @@
                     toolbar2: 'print preview media | forecolor backcolor emoticons'
                 };
                 $scope.submitPost = function () {
-                    return Article.postArticle($scope.data.article);
+                    Article.postArticle($scope.data.article).then(function (res) {
+                        $state.go('post.articlecrud');
+                    });
                 }
             }]);
 })(angular);

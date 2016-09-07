@@ -38,7 +38,11 @@
                 ]
             };
             this.getCategoryForArticle = function () {
-                
+                var defer = $q.defer();
+                $http.get(IzAdminConfigService.getConfig('blog_post_url', 'admin') + '/categoriesforpost').then(function (res) {
+                    return defer.resolve(res.data);
+                });
+                return defer.promise;
             }
         }]);
 })(angular);

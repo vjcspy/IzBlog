@@ -71,10 +71,13 @@ angular.module('app')
                                 ]
                             ).deps,
                             articleData: function ($stateParams, Article) {
-                                if (!!$stateParams['article_id']) {
-                                    return Article.getCurrentArticle($stateParams['article_id']);
+                                if (!!$stateParams['articleId']) {
+                                    return Article.getCurrentArticle($stateParams['articleId']);
                                 } else
                                     return {};
+                            },
+                            categoriesData: function (BlogCategory) {
+                                return BlogCategory.getCategoryForArticle();
                             }
                         }
                     })
@@ -88,7 +91,10 @@ angular.module('app')
                                 [
                                     'modules/themes/admin.default/assets/scripts/controllers/blog/post/articlecrud.js',
                                 ]
-                            ).deps
+                            ).deps,
+                            categoriesData: function (BlogCategory) {
+                                return BlogCategory.getCategoryForArticle();
+                            }
                         }
                     })
                 ;

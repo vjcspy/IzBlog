@@ -15,13 +15,6 @@ class DefaultLayout implements AdditionViewInterface {
 
     private $request;
 
-    /**
-     * @return \Modules\IzBlog\Entities\Post
-     */
-    public function getPost() {
-        return $this->post;
-    }
-
     private $post;
 
     public function __construct(
@@ -33,7 +26,14 @@ class DefaultLayout implements AdditionViewInterface {
     }
 
     /**
-     * @return []
+     * @return \Modules\IzBlog\Entities\Post
+     */
+    public function getPost() {
+        return $this->post;
+    }
+
+    /**
+     * @return array []
      */
     public function handle() {
         // TODO: Implement handle() method.

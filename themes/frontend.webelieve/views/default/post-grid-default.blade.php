@@ -737,7 +737,7 @@
                                                         @endif
                                                     </span>
                                                     <a
-                                                            href="{{url('izblog/believe/post') . '?post_id'. $post['id']}}"
+                                                            href="{{url('izblog/believe/post') . '?post_id='. $post['id']}}"
                                                             class="event__preview-link"><img
                                                                 src="{{url('imagecache/small_article') . '/' . $post['post_image_url']}}"
                                                                 alt="" class="event__preview-img"></a>
@@ -778,7 +778,8 @@
                                                     </div>
                                                     <div class="clearfix"></div>
                                                     <div class="event__price">$ {{$post['price']}} VND</div>
-                                                    <a href="{{url('izblog/believe/post') . '?post_id'. $post['id']}}" class="btn--link event__more">Đọc thêm</a>
+                                                    <a href="{{url('izblog/believe/post') . '?post_id='. $post['id']}}" class="btn--link
+                                                    event__more">Đọc thêm</a>
                                                 </div>
                                                 <div class="clearfix"></div>
                                                 <div class="event__form js-form"></div>

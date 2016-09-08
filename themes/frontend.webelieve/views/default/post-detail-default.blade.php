@@ -680,7 +680,7 @@
                                     <h2 class="widget__title">{{$postData['post_title']}}</h2>
                                 </div>
                                 <div class="post__author"><i>by</i> <a>Admin</a></div>
-                                <div class="widget__preview"><img src="/modules/themes/frontend.webelieve/assets/media-demo/post/900x475/post-1.jpg"
+                                <div class="widget__preview"><img src="{{url('imagecache/title_article') . '/' . $postData['post_image_url']}}"
                                                                   alt="" class="post__preview-img"></div>
                                 <div class="widget__description">
                                     {!!  $postData['post_content'] !!}

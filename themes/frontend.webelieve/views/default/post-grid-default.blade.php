@@ -739,7 +739,7 @@
                                                     <a
                                                             href="{{url('izblog/believe/post') . '?post_id'. $post['id']}}"
                                                             class="event__preview-link"><img
-                                                                src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-2.jpg"
+                                                                src="{{url('imagecache/small_article') . '/' . $post['post_image_url']}}"
                                                                 alt="" class="event__preview-img"></a>
                                                     <div class="event__links"><a class="event__link-item js-event-location">
                                                             <svg class="event__link-svg">
@@ -778,7 +778,7 @@
                                                     </div>
                                                     <div class="clearfix"></div>
                                                     <div class="event__price">$ {{$post['price']}} VND</div>
-                                                    <a href="event_details.html" class="btn--link event__more">Đọc thêm</a>
+                                                    <a href="{{url('izblog/believe/post') . '?post_id'. $post['id']}}" class="btn--link event__more">Đọc thêm</a>
                                                 </div>
                                                 <div class="clearfix"></div>
                                                 <div class="event__form js-form"></div>

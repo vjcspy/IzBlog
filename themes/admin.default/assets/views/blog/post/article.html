@@ -45,8 +45,42 @@
                     <textarea id="short_content" ui-tinymce="tinymceOptions" ng-model="data.article.post_short_content"></textarea>
                 </div>
                 <div class="form-group">
-                    <label for="image_url">Image Url</label>
-                    <input type="text" class="form-control" id="image_url" ng-model="data.article.post_image_url">
+                    <label>Image Url</label>
+                    <div
+                         flow-init
+                         flow-file-success="uploadImageSuccess( $file, $message, $flow )"
+                         flow-file-added="uploadImageAdded( $file, $event, $flow )">
+                        <input type="text" class="form-control"
+                               ng-model="data.article.post_image_url" ng-disabled="true"
+                               required>
+                        <div class="thumbnail" ng-hide="$flow.files.length">
+                            <!--<img src="http://www.placehold.it/200x150/EFEFEF/AAAAAA&text=no+image"/>-->
+                            <!--FIXME: need use url manager-->
+                            <img src="{{ data.hostname + '/imagecache/small_article/' + data.article.post_image_url}}"/>
+                        </div>
+                        <div class="thumbnail" ng-show="$flow.files.length">
+                            <img flow-img="$flow.files[0]"/>
+                        </div>
+                        <div>
+                            <span class="btn" flow-btn ng-hide="$flow.files.length"><i class="icon icon-file"></i>Upload File</span>
+                            <span class="btn" ng-show="$flow.files.length" flow-btn>Change</span>
+                            <a class="btn btn-success" ng-click="$flow.resume()" ng-show="$flow.files.length">Upload</a>
+                            <span class="btn btn-danger" ng-show="$flow.files.length"
+                                  ng-click="$flow.cancel()">
+                Remove
+            </span>
+                        </div>
+                        <p>
+                            Only PNG,GIF,JPG files allowed.
+                        </p>
+                        <div ng-show="$flow.isUploading()">
+                            <p>Queue progress:</p>
+                            <div class="progress bg-light dker" ng-class="{active: $flow.isUploading()}">
+                                <div class="progress-bar progress-bar-striped bg-info" role="progressbar"
+                                     ng-style="{ 'width': $flow.progress() * 100 + '%' }"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <button ng-click="submitPost()" class="btn btn-default m-b">Submit</button>
             </form>

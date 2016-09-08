@@ -9,7 +9,7 @@
 namespace Modules\IzBlog\Http\Controllers;
 
 
-use Illuminate\Http\Request;
+use Modules\IzCore\Http\Controllers\ImageUpload;
 use Response;
 use Modules\IzAdmin\Http\Controllers\DataTable\Contract\DataTableAbstract;
 use Modules\IzAdmin\Http\Controllers\DataTable\Contract\DataTableInterface;
@@ -20,6 +20,8 @@ use Modules\IzAdmin\Http\Controllers\DataTable\Contract\DataTableInterface;
  * @package Modules\IzBlog\Http\Controllers
  */
 class PostDataTableController extends DataTableAbstract implements DataTableInterface {
+
+    use ImageUpload;
 
     /**
      * PostDataTableController constructor.

@@ -18,6 +18,7 @@
         <asset name="vendor-js-core" source="js/vendor.js" dependency="" theme_name="frontend.webelieve"/>
         <asset name="app-js-core" source="js/app.js" dependency="" theme_name="frontend.webelieve"/>
         <asset name="demo-js-core" source="js/demo.js" dependency="" theme_name="frontend.webelieve"/>
+        <asset name="jssor" source="js/jssor.slider-21.1.5.min.js" dependency="" theme_name="frontend.webelieve"/>
     </custom_assets>
     <view_data>
         <instance name="\Modules\IzAdmin\Repositories\Theme\View\IzAdmin\Index"/>

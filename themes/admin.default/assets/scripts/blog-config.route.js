@@ -97,6 +97,20 @@ angular.module('app')
                             }
                         }
                     })
+                    .state('system.setting', {
+                        url: '/setting',
+                        data: {title: 'Setting', folded: true},
+                        templateUrl: "modules/themes/admin.default/assets/views/system/setting.html",
+                        controller: 'SystemSettingCtrl',
+                        resolve: {
+                            deps: load(
+                                [
+                                    'xeditable',
+                                    'modules/themes/admin.default/assets/scripts/controllers/blog/system/setting.js'
+                                ]
+                            ).deps
+                        }
+                    })
                 ;
 
                 function load(srcs, callback) {

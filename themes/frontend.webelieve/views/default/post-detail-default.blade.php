@@ -169,8 +169,7 @@
                                                     class="nav__event-img"/><span
                                                     class="nav__event-hover">Events Calendar</span></a>
                                     </li>
-                                    <li class="nav__group nav__group--event-list has-children"><a href="undefined.html" class="nav__subtitle">khuyến
-                                            mãi
+                                    <li class="nav__group nav__group--event-list has-children"><a href="undefined.html" class="nav__subtitle">khuyến mãi
                                             event</a>
                                         <ul class="nav__list">
                                             <li class="nav__item nav__item--title event-list"><a href="event_details.html" class="nav__link">Don’t
@@ -673,27 +672,25 @@
                                 <time datetime="2016" class="post__time">
                                     <svg class="post__time-svg">
                                         <use xlink:href="#icon-time"></use>
-                                    </svg>
-                                    Friday, August 25, 2015
+                                    </svg>Friday, August 25, 2015
                                 </time>
                                 <div class="widget__header-title">
-                                    <h2 class="widget__title">{{$postData['post_title']}}</h2>
+                                    <h2 class="widget__title">Nếu 1 nhũ hoa từ thâm đen trở nên hồng hào gợi cảm thật sự tự tin trước bạn trai với chi phí chỉ giảm rồi còn 680k 1 lần duy nhất thì các bạn đã thấy đủ để iu chưa?</h2>
                                 </div>
-                                <div class="post__author"><i>by</i> <a>Admin</a></div>
-                                <div class="widget__preview"><img src="{{url('imagecache/title_article') . '/' . $postData['post_image_url']}}"
-                                                                  alt="" class="post__preview-img"></div>
+                                <div class="post__author"><i>by</i> <a>Edgar Smith</a></div>
+                                <div class="widget__preview"><img src="/modules/themes/frontend.webelieve/assets/media-demo/post/900x475/post-1.jpg" alt="" class="post__preview-img"></div>
                                 <div class="widget__description">
-                                    {!!  $postData['post_content'] !!}
+                                    <p>01. Nhũ hoa hồng tự nhiên Với công nghệ phun hồng nhũ hoa pha lê 16D ra chùm hồng cực mỏng tác động đến các sắc tố thâm đen vùng nhũ hoa. Những sắc tố ở vùng ngoài dưới da sẽ được đẩy lên trên bề mặt da và bị mở dần còn những sắc tố nằm sâu bên trong biểu bì da sẽ bị tán thành những hạt nhỏ xíu được đào thải theo quá trình lọc thải tự nhiên trong cơ thể. Ngoài ra, những bước sóng kích thích sản sinh ra các callogen làm mìn màng và cho nhũ hoa tươi trẻ , hồng tự nhiên. Do đó, chỉ sau 1 lần điều trị duy nhất cho kết quả nhũ hoa hồng tự nhiên, tươi sáng, biến mất mọi vết thâm đen. 02. Hiệu quả lâu dài Với công nghệ thẩm mỹ phun hồng nhũ hoa tiên tiến bằng tia laser với các bước sóng tác động kéo dài trên các mô, làm săn các bó cơ, xóa bỏ các nếp nhăn,giúp thon gọn nhũ hoa, săn chắc, sáng mịn, hiệu quả lâu dài. 03. Công nghệ an toàn tuyệt đối Công nghệ phun hồng nhũ hoa chỉ tác động nhẹ nhàng lên vùng nhũ hoa mà không gây xâm lấn, không gây bất kỳ mọi tổn thương , không gây ảnh hưởng tới chức năng sinh lý của bầu ngực và ảnh hưởng đến quá trình cho con bú. Công nghệ phun hồng nhũ hoa được Thẩm mỹ viện Sài Gòn Venus ứng dụng theo quy trình thẩm mỹ an toàn, tuân thủ mọi quy định của Bộ y tế đảm bảo an toàn tuyệt đối cho mọi khách hàng. 04. Không đau, không cần phẫu thuật Phương pháp phun hồng nhũ hoa hoàn toàn không phẫu thuật. Với ứng dụng nguồn năng lượng xúc tác trong việc điều trị vào vùng nhũ hoa làm tan biến mọi vết thâm đen. Trước khi tiến hành bác sĩ sẽ bôi tê vùng nhũ hoa nên khách hàng không cảm thấy đau đớn hay bất kỳ khó chịu nào.</p>
+                                    <blockquote>Nhằm đáp ứng nhu cầu làm đẹp ngày càng cao của khách hàng, Thẩm mỹ viện Hoa Kỳ không ngừng cập nhật công nghệ tiên tiến trên thế giới về lĩnh vực làm đẹp, thẩm mỹ nhằm đem đến cho khách hàng nhiều giải pháp làm đẹp thẩm mỹ chất lượng, tối ưu hóa kết quả thẩm mỹ và làm hài lòng khách hàng. Đặc biệt, Thẩm mỹ viện Hoa Kỳ đã áp dụng thành công phương pháp phun hồng nhũ hoa đem đến đôi nhũ hoa đẹp tự nhiên, cùng niềm vui, sự tự tin trong cuộc sống của nhiều khách hàng tại Việt Nam. - Thẩm mỹ viện Hoa Kỳ là một trong số ít các thẩm mỹ viện tại Việt Nam đã được Sở y tế Tp.HN cấp phép hoạt động phẫu thuật thẩm mỹ. - Công nghệ thẩm mỹ phun hồng nhũ hoa được Thẩm mỹ viện Hoa Kỳ trực tiếp tiếp nhận chuyển giao từ Hàn quốc, tiến hành theo một quy trình phẫu thuật thẩm mỹ khép kín ,đạt chuẩn,đảm bảo an toàn tuyệt đối, đem đến cho khách hàng kết quả đôi nhũ hoa đẹp tự nhiên</blockquote>
+                                    <p>Sau phun hồng nhũ hoa có thể đổi màu, biến màu. - 2 màu nhũ hoa không cân đối - Màu nhũ không hài hòa với khuôn quầng ngực - Nhiễm trùng da, viêm da khi khâu sát khuẩn không cẩn thận - Nên thực hiện chăm sóc theo hướng dẫn cụ thể của bác sĩ phun hồng nhũ hoa pha lê 16D. - Thêm vào đó là sự tuân thủ giữ gìn, chăm sóc sau phẫu thuật của khách hàng cũng là một yếu tố quan trọng giúp tránh viêm nhiễm, hoặc vẹo lệch sau thẩm mỹ phun hồng nhũ hoa. Bác sỹ phẫu thuật và khách hàng phải có sự kết hợp hài hòa vì cái đẹp chung . Thẩm mỹ viện Hoa Kỳ với đội ngũ y chuyên gia hơn 20 kinh nghiệm cho kết quả làm hồng nhũ hoa pha lê 16D đẹp tư nhiên không ai biết!</p>
+                                    <p><img src="/modules/themes/frontend.webelieve/assets/media-demo/post/post-2.jpg" style="float: left; margin: 10px 20px 10px 0;" alt=""> Công nghệ phun hồng nhũ hoa được Thẩm mỹ viện Sài Gòn Venus ứng dụng theo quy trình thẩm mỹ an toàn, tuân thủ mọi quy định của Bộ y tế đảm bảo an toàn tuyệt đối cho mọi khách hàng. 04. Không đau, không cần phẫu thuật Phương pháp phun hồng nhũ hoa hoàn toàn không phẫu thuật. Với ứng dụng nguồn năng lượng xúc tác trong việc điều trị vào vùng nhũ hoa làm tan biến mọi vết thâm đen. Trước khi tiến hành bác sĩ sẽ bôi tê vùng nhũ hoa nên khách hàng không cảm thấy đau đớn hay bất kỳ khó chịu nào.</p>
+                                    <p>Nhũ hoa hồng tự nhiên Với công nghệ phun hồng nhũ hoa pha lê 16D ra chùm hồng cực mỏng tác động đến các sắc tố thâm đen vùng nhũ hoa. Những sắc tố ở vùng ngoài dưới da sẽ được đẩy lên trên bề mặt da và bị mở dần còn những sắc tố nằm sâu bên trong biểu bì da sẽ bị tán thành những hạt nhỏ xíu được đào thải theo quá trình lọc thải tự nhiên trong cơ thể. Ngoài ra, những bước sóng kích thích sản sinh ra các callogen làm mìn màng và cho nhũ hoa tươi trẻ , hồng tự nhiên. Do đó, chỉ sau 1 lần điều trị duy nhất cho kết quả nhũ hoa hồng tự nhiên, tươi sáng, biến mất mọi vết thâm đen</p>
                                 </div>
                             </div>
                             <div class="widget__footer" style="display:none">
-                                <nav class="widget__tags"><a>John Stevenson</a> / <a>Worship</a> / <a>Faith</a> / <a>Love</a> / <a>Forgiveness</a> /
-                                    <a>Hearth</a></nav>
+                                <nav class="widget__tags"><a>John Stevenson</a> / <a>Worship</a> / <a>Faith</a> / <a>Love</a> / <a>Forgiveness</a> / <a>Hearth</a></nav>
                                 <div class="social social--right">
-                                    <div class="social__list"><a href="#" class="social__item"><i class="fa fa-facebook"></i></a><a href="#"
-                                                                                                                                    class="social__item"><i
-                                                    class="fa fa-twitter"></i></a><a href="#" class="social__item"><i
-                                                    class="fa fa-google-plus"></i></a></div>
+                                    <div class="social__list"><a href="#" class="social__item"><i class="fa fa-facebook"></i></a><a href="#" class="social__item"><i class="fa fa-twitter"></i></a><a href="#" class="social__item"><i class="fa fa-google-plus"></i></a></div>
                                 </div>
                             </div>
                         </div>
@@ -701,7 +698,7 @@
                     </div>
                     <!-- END WIDGET-->
                     <!-- BEGIN WIDGET-->
-                    <div class="widget js-widget widget--card" style="display: none">
+                    <div class="widget js-widget widget--card">
                         <!-- END WIDGET HEADER-->
                         <!-- BEGIN WIDGET CONTENT-->
                         <div class="widget__content">
@@ -712,8 +709,7 @@
                                 </header>
                                 <div class="comment__list">
                                     <div class="comment__item">
-                                        <div class="comment__avatar"><img src="/modules/themes/frontend.webelieve/assets/media-demo/avatars/1.png"
-                                                                          alt=""></div>
+                                        <div class="comment__avatar"><img src="/modules/themes/frontend.webelieve/assets/media-demo/avatars/1.png" alt=""></div>
                                         <div class="comment__info">
                                             <div class="comment__info-left">
                                                 <h3 class="comment__author">Thanh Tu</h3>
@@ -724,14 +720,12 @@
                                             </div>
                                         </div>
                                         <div class="comment__body">
-                                            <p> Với ứng dụng nguồn năng lượng xúc tác trong việc điều trị vào vùng nhũ hoa làm tan biến mọi vết thâm
-                                                đen</p>
+                                            <p> Với ứng dụng nguồn năng lượng xúc tác trong việc điều trị vào vùng nhũ hoa làm tan biến mọi vết thâm đen</p>
                                         </div>
                                         <!-- end of block .comment__item-->
                                     </div>
                                     <div class="comment__item">
-                                        <div class="comment__avatar"><img src="/modules/themes/frontend.webelieve/assets/media-demo/avatars/2.png"
-                                                                          alt=""></div>
+                                        <div class="comment__avatar"><img src="/modules/themes/frontend.webelieve/assets/media-demo/avatars/2.png" alt=""></div>
                                         <div class="comment__info">
                                             <div class="comment__info-left">
                                                 <h3 class="comment__author">Thanh An</h3>
@@ -742,15 +736,13 @@
                                             </div>
                                         </div>
                                         <div class="comment__body">
-                                            <p> Với ứng dụng nguồn năng lượng xúc tác trong việc điều trị vào vùng nhũ hoa làm tan biến mọi vết thâm
-                                                đen</p>
+                                            <p> Với ứng dụng nguồn năng lượng xúc tác trong việc điều trị vào vùng nhũ hoa làm tan biến mọi vết thâm đen</p>
                                         </div>
                                         <!-- end of block .comment__item-->
                                     </div>
                                     <div class="comment__children">
                                         <div class="comment__item">
-                                            <div class="comment__avatar"><img src="/modules/themes/frontend.webelieve/assets/media-demo/avatars/1.png"
-                                                                              alt=""></div>
+                                            <div class="comment__avatar"><img src="/modules/themes/frontend.webelieve/assets/media-demo/avatars/1.png" alt=""></div>
                                             <div class="comment__info">
                                                 <div class="comment__info-left">
                                                     <h3 class="comment__author">Thanh An</h3>
@@ -762,15 +754,13 @@
                                             </div>
                                             <div class="comment__body comment__body--warning">
                                                 <h5>Your comment is awaiting moderation.</h5>
-                                                <p> Với ứng dụng nguồn năng lượng xúc tác trong việc điều trị vào vùng nhũ hoa làm tan biến mọi vết
-                                                    thâm đen</p>
+                                                <p> Với ứng dụng nguồn năng lượng xúc tác trong việc điều trị vào vùng nhũ hoa làm tan biến mọi vết thâm đen</p>
                                             </div>
                                             <!-- end of block .comment__item-->
                                         </div>
                                     </div>
                                     <div class="comment__item">
-                                        <div class="comment__avatar"><img src="/modules/themes/frontend.webelieve/assets/media-demo/avatars/2.png"
-                                                                          alt=""></div>
+                                        <div class="comment__avatar"><img src="/modules/themes/frontend.webelieve/assets/media-demo/avatars/2.png" alt=""></div>
                                         <div class="comment__info">
                                             <div class="comment__info-left">
                                                 <h3 class="comment__author">Thanh An</h3>
@@ -781,8 +771,7 @@
                                             </div>
                                         </div>
                                         <div class="comment__body">
-                                            <p> Với ứng dụng nguồn năng lượng xúc tác trong việc điều trị vào vùng nhũ hoa làm tan biến mọi vết thâm
-                                                đen</p>
+                                            <p> Với ứng dụng nguồn năng lượng xúc tác trong việc điều trị vào vùng nhũ hoa làm tan biến mọi vết thâm đen</p>
                                         </div>
                                         <!-- end of block .comment__item-->
                                     </div>
@@ -793,7 +782,7 @@
                     </div>
                     <!-- END WIDGET-->
                     <!-- BEGIN WIDGET-->
-                    <div class="widget js-widget widget--card" style="display: none">
+                    <div class="widget js-widget widget--card">
                         <!-- BEGIN WIDGET HEADER-->
                         <div class="widget__header">
                             <h2 class="widget__title js-widget-title">Để lại nhận xét</h2>
@@ -885,9 +874,7 @@
                         <!-- BEGIN WIDGET CONTENT-->
                         <div class="widget__content">
                             <div class="textwidget">
-                                <p>Xăm phun là một trong những phương pháp xăm tạm thời, hay chính xác hơn là phun/vẽ màu theo mẫu lên da. Xăm phun có
-                                    thể sử dụng được cho tất cả mọi người và mọi loại da. - Ưu điểm của xăm phun? Ưu điểm lớn nhất và dễ thấy nhất của
-                                    xăm phun là hình xăm chỉ tồn tại trong thời gian ngắn</p>
+                                <p>Xăm phun là một trong những phương pháp xăm tạm thời, hay chính xác hơn là phun/vẽ màu theo mẫu lên da. Xăm phun có thể sử dụng được cho tất cả mọi người và mọi loại da. - Ưu điểm của xăm phun? Ưu điểm lớn nhất và dễ thấy nhất của xăm phun là hình xăm chỉ tồn tại trong thời gian ngắn</p>
                             </div>
                         </div>
                         <!-- END WIDGET CONTENT-->
@@ -927,7 +914,7 @@
                                         16D phố Đường Thành, F.Cửa Đông, Hoàn Kiếm, Hà Nội
                                     </dd>
                                     <dt class="address__list-icon"><i class="fa fa-phone"></i></dt>
-                                    <dd class="address__list-body">0437150736|01672635165 - Hotline : 0912211493 có Zalo</dd>
+                                    <dd class="address__list-body">0437150736|01672635165 - Hotline : 0912211493 có Zalo </dd>
                                     <dt class="address__list-icon"><i class="fa fa-envelope-o"></i></dt>
                                     <dd class="address__list-body"><a href=" thammyhoaky@gmail.com"> thammyhoaky@gmail.com</a></dd>
                                 </dl>

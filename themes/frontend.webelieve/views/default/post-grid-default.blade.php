@@ -1,6 +1,6 @@
 <div class="box">
     <!-- BEGIN topbar-->
-    <div class="topbar js-topbar" style="display:none">
+    <div class="topbar js-topbar">
         <div class="container">
             <div class="topbar__row">
                 <button class="header__menu header__menu--mob js-menu-btn">
@@ -11,506 +11,14 @@
                 <!-- BEGIN nav block-->
                 <nav class="nav js-nav nav--v1">
                     <ul class="nav__list">
-                        <li class="nav__item nav__item--lvl-1 js-nav-item  has-children"><a href="index.html" class="nav__link">Home</a>
-                            <div class="nav__sub">
-                                <ul class="nav__list">
-                                    <li class="nav__item nav__item--lvl-sub"><a href="index.html" class="nav__link">Variation 1</a>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub"><a href="index_2.html" class="nav__link">Variation 2</a>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub"><a href="index_3.html" class="nav__link">Variation 3</a>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub"><a href="index_auth.html" class="nav__link">Slider &amp;
-                                            Authorization</a>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub  has-children"><a href="index.html" class="nav__link">Header
-                                            Variations</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="index.html" class="nav__link">Header 1</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="index_header_2.html" class="nav__link">Header 2</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="index_header_3.html" class="nav__link">Header 3</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="index_header_4.html" class="nav__link">Header 4</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="index_header_5.html" class="nav__link">Header 5</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="index_header_6.html" class="nav__link">Header 6</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav__item nav__item--lvl-1 js-nav-item  has-children"><a href="events_list.html" class="nav__link">Events</a>
-                            <div class="nav__sub">
-                                <ul class="nav__list">
-                                    <li class="nav__item nav__item--lvl-sub col-1 has-children"><a href="events_list.html" class="nav__link">Events
-                                            List</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="events_list.html" class="nav__link">Right
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="events_list--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="events_list--full.html" class="nav__link active">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub col-1 has-children"><a href="events_grid.html" class="nav__link">Events
-                                            Grid</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="events_grid.html" class="nav__link">Right
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="events_grid--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="events_grid--full.html" class="nav__link">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub col-1 has-children"><a href="event_details.html" class="nav__link">Event
-                                            Details</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="event_details.html" class="nav__link">Right
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="event_details--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="event_details--full.html" class="nav__link">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav__item nav__item--lvl-1 js-nav-item  has-children"><a href="sermons_list.html" class="nav__link">Sermons</a>
-                            <div class="nav__sub">
-                                <ul class="nav__list">
-                                    <li class="nav__item nav__item--lvl-sub col-1 has-children"><a href="sermons_list.html" class="nav__link">Sermon
-                                            List</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="sermons_list.html" class="nav__link">Right
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="sermons_list--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="sermons_list--full.html" class="nav__link">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub col-1 has-children"><a href="sermons_grid.html" class="nav__link">Sermon
-                                            Grid</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="sermons_grid.html" class="nav__link">Right
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="sermons_grid--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="sermons_grid--full.html" class="nav__link">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub  has-children"><a href="sermon_details.html" class="nav__link">Single
-                                            Sermon</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="sermon_details.html" class="nav__link">Right
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="sermon_details--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="sermon_details--full.html" class="nav__link">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav__item nav__item--lvl-1 js-nav-item nav__item--mega has-children"><a href="feature_rtl.html" class="nav__link">Mega
-                                Menu</a>
-                            <div class="nav__sub">
-                                <ul class="nav__list">
-                                    <li class="nav__group nav__group--event-item has-children"><a href="undefined.html"
-                                                                                                  class="nav__subtitle nav__subtitle--nobd">Next
-                                            coming event</a><a class="nav__event-preview"><img
-                                                    src="/modules/themes/frontend.webelieve/assets/media-demo/events/1.jpg" alt=""
-                                                    class="nav__event-img"/><span class="nav__event-hover">Events Calendar</span></a>
-                                        <h5 class="nav__event-title">We all want to raise our children.</h5>
-                                        <h6 class="nav__event-subtitle">Organizer - We Beleive Church</h6><a
-                                                class="nav__event-preview nav__event-preview--second"><img
-                                                    src="modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-2.jpg" alt=""
-                                                    class="nav__event-img"/><span
-                                                    class="nav__event-hover">Events Calendar</span></a>
-                                    </li>
-                                    <li class="nav__group nav__group--event-list has-children"><a href="undefined.html" class="nav__subtitle">khuyến
-                                            mãi
-                                            event</a>
-                                        <ul class="nav__list">
-                                            <li class="nav__item nav__item--title event-list"><a href="event_details.html" class="nav__link">Don’t
-                                                    miss out on Gatew...</a><i class="nav__event-date">14 - 15 July, 2015</i></li>
-                                            <li class="nav__item nav__item--title event-list"><a href="event_details.html" class="nav__link">A
-                                                    powerfull life-changing ...</a><i class="nav__event-date">14 - 15 July, 2015</i></li>
-                                            <li class="nav__item nav__item--title event-list"><a href="event_details.html" class="nav__link">Build a
-                                                    fundation for Paren...</a><i class="nav__event-date">14 - 15 July, 2015</i></li>
-                                            <li class="nav__item nav__item--title event-list"><a href="event_details.html" class="nav__link">We all
-                                                    want to raise our chi...</a><i class="nav__event-date">14 - 15 July, 2015</i></li>
-                                            <li class="nav__item nav__item--title event-list"><a href="event_details.html" class="nav__link">Children
-                                                    are the future.</a><i class="nav__event-date">14 - 15 July, 2015</i></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav__group group has-children"><a href="undefined.html" class="nav__subtitle">Features</a>
-                                        <ul class="nav__list">
-                                            <li class="nav__item nav__item--group"><a href="feature_rtl.html" class="nav__link">Feature Right to left
-                                                    (RTL)</a>
-                                            </li>
-                                            <li class="nav__item nav__item--group"><a href="feature_boxed.html" class="nav__link">Layout Boxed</a>
-                                            </li>
-                                            <li class="nav__item nav__item--group"><a href="feature_no_content.html" class="nav__link">Feature no
-                                                    content</a>
-                                            </li>
-                                            <li class="nav__item nav__item--group"><a href="feature_typography.html" class="nav__link">Typography</a>
-                                            </li>
-                                            <li class="nav__item nav__item--group"><a href="feature_bootstrap.html" class="nav__link">Twitter
-                                                    Bootstrap</a>
-                                            </li>
-                                            <li class="nav__item nav__item--group"><a href="feature_ui.html" class="nav__link">Feature UI</a>
-                                            </li>
-                                            <li class="nav__item nav__item--group"><a href="email.html" class="nav__link">Email template</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav__group group has-children"><a href="undefined.html" class="nav__subtitle">Custom menu</a>
-                                        <ul class="nav__list">
-                                            <li class="nav__item nav__item--group"><a href="about.html" class="nav__link">About Us</a>
-                                            </li>
-                                            <li class="nav__item nav__item--group"><a href="contacts.html" class="nav__link">Contact Us</a>
-                                            </li>
-                                            <li class="nav__item nav__item--group"><a href="error_404.html" class="nav__link">404 Page</a>
-                                            </li>
-                                            <li class="nav__item nav__item--group"><a href="user_login.html" class="nav__link">User login</a>
-                                            </li>
-                                            <li class="nav__item nav__item--group"><a href="user_register.html" class="nav__link">User register</a>
-                                            </li>
-                                            <li class="nav__item nav__item--group"><a href="user_restore_pass.html" class="nav__link">User restore
-                                                    Pass</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav__item nav__item--lvl-1 js-nav-item  has-children"><a href="causes_list.html" class="nav__link">Causes</a>
-                            <div class="nav__sub">
-                                <ul class="nav__list">
-                                    <li class="nav__item nav__item--lvl-sub col-1 has-children"><a href="causes_list.html" class="nav__link">Causes
-                                            List</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="causes_list.html" class="nav__link">Right
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="causes_list--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="causes_list--full.html" class="nav__link">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub col-1 has-children"><a href="causes_grid.html" class="nav__link">Causes
-                                            Grid</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="causes_grid.html" class="nav__link">Right
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="causes_grid--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="causes_grid--full.html" class="nav__link">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub"><a href="causes_list--donate.html" class="nav__link">Causes Donate
-                                            Variation</a>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub  has-children"><a href="cause_details.html" class="nav__link">Single
-                                            Causes</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="cause_details.html" class="nav__link">Right
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="cause_details--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="cause_details--full.html" class="nav__link">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav__item nav__item--lvl-1 js-nav-item  has-children"><a href="gallery.html" class="nav__link">Gallery</a>
-                            <div class="nav__sub">
-                                <ul class="nav__list">
-                                    <li class="nav__item nav__item--lvl-sub  has-children"><a href="gallery.html" class="nav__link">Standart</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub  has-children"><a href="gallery.html"
-                                                                                                          class="nav__link">Grid</a>
-                                                    <div class="nav__sub nav__sub--lvl-1">
-                                                        <ul class="nav__list">
-                                                            <li class="nav__item nav__item--lvl-sub"><a href="gallery--2.html" class="nav__link">2
-                                                                    Columns</a></li>
-                                                            <li class="nav__item nav__item--lvl-sub"><a href="gallery.html" class="nav__link">3
-                                                                    Columns</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub  has-children"><a href="gallery--masonry.html"
-                                                                                                          class="nav__link">Masonry</a>
-                                                    <div class="nav__sub nav__sub--lvl-1">
-                                                        <ul class="nav__list">
-                                                            <li class="nav__item nav__item--lvl-sub"><a href="gallery--masonry-2.html"
-                                                                                                        class="nav__link">2 Columns</a></li>
-                                                            <li class="nav__item nav__item--lvl-sub"><a href="gallery--masonry.html"
-                                                                                                        class="nav__link">3 Columns</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub  has-children"><a href="gallery_caption.html" class="nav__link">With
-                                            caption</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub  has-children"><a href="gallery_caption.html"
-                                                                                                          class="nav__link">Grid</a>
-                                                    <div class="nav__sub nav__sub--lvl-1">
-                                                        <ul class="nav__list">
-                                                            <li class="nav__item nav__item--lvl-sub"><a href="gallery_caption--2.html"
-                                                                                                        class="nav__link">2 Columns</a></li>
-                                                            <li class="nav__item nav__item--lvl-sub"><a href="gallery_caption.html" class="nav__link">3
-                                                                    Columns</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub  has-children"><a href="gallery_caption--masonry.html"
-                                                                                                          class="nav__link">Masonry</a>
-                                                    <div class="nav__sub nav__sub--lvl-1">
-                                                        <ul class="nav__list">
-                                                            <li class="nav__item nav__item--lvl-sub"><a href="gallery_caption--masonry-2.html"
-                                                                                                        class="nav__link">2 Columns</a></li>
-                                                            <li class="nav__item nav__item--lvl-sub"><a href="gallery_caption--masonry.html"
-                                                                                                        class="nav__link">3 Columns</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub"><a href="gallery_details.html" class="nav__link">Gallery details</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav__item nav__item--lvl-1 js-nav-item  has-children"><a href="shop.html" class="nav__link">Shop</a>
-                            <div class="nav__sub">
-                                <ul class="nav__list">
-                                    <li class="nav__item nav__item--lvl-sub"><a href="shop.html" class="nav__link">Products List</a>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub"><a href="product.html" class="nav__link">Product Page</a>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub"><a href="cart.html" class="nav__link">Cart</a>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub"><a href="checkout.html" class="nav__link">Checkout</a>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub"><a href="account.html" class="nav__link">Account</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav__item nav__item--lvl-1 js-nav-item  has-children"><a href="about.html" class="nav__link">About Us</a>
-                            <div class="nav__sub">
-                                <ul class="nav__list">
-                                    <li class="nav__item nav__item--lvl-sub  has-children"><a href="community.html" class="nav__link">Our
-                                            community</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="community.html" class="nav__link">Right Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="community--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="community--full.html" class="nav__link">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub  has-children"><a href="community_member.html"
-                                                                                              class="nav__link">Member</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="community_member.html" class="nav__link">Right
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="community_member--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="community_member--full.html" class="nav__link">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub  has-children"><a href="about.html" class="nav__link">About Us</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="about.html" class="nav__link">Right Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="about--left.html" class="nav__link">Left Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="about--full.html" class="nav__link">No Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub"><a href="new_here.html" class="nav__link">New here?</a>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub"><a href="calendar.html" class="nav__link">Calendar</a>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub"><a href="donate.html" class="nav__link">Donate</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav__item nav__item--lvl-1 js-nav-item  has-children"><a href="blog_list.html" class="nav__link">Blog</a>
-                            <div class="nav__sub">
-                                <ul class="nav__list">
-                                    <li class="nav__item nav__item--lvl-sub col-1 has-children"><a href="blog_list.html" class="nav__link">Blog
-                                            List</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_list.html" class="nav__link">Right Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_list--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_list--full.html" class="nav__link">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub col-1 has-children"><a href="blog_grid.html" class="nav__link">Blog
-                                            Grid</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_grid.html" class="nav__link">Right Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_grid--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_grid--full.html" class="nav__link">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub col-1 has-children"><a href="blog_masonry.html" class="nav__link">Blog
-                                            Masonry</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_masonry.html" class="nav__link">Right
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_masonry--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_masonry--full.html" class="nav__link">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub col-1 has-children"><a href="blog_details.html" class="nav__link">Blog
-                                            Header Variations</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_details.html" class="nav__link">Header 1</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_header_2.html" class="nav__link">Header 2</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_header_3.html" class="nav__link">Header 3</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_header_4.html" class="nav__link">Header 4</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_header_5.html" class="nav__link">Header 5</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_header_6.html" class="nav__link">Header 6</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub col-1 has-children"><a href="blog_details.html" class="nav__link">Blog
-                                            Details</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_details.html" class="nav__link">Right
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_details--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_details--full.html" class="nav__link">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav__item nav__item--lvl-1 js-nav-item"><a href="contacts.html" class="nav__link">Contacts</a>
-                        </li>
+                        <li class="nav__item nav__item--lvl-1 js-nav-item"><a href="" class="nav__link">Home</a></li>
+                        <li class="nav__item nav__item--lvl-1 js-nav-item"><a href="contacts.html" class="nav__link">Contacts</a></li>
+                        <li class="nav__item nav__item--lvl-1 js-nav-item"><a href="contacts.html" class="nav__link">Contacts</a></li>
+                        <li class="nav__item nav__item--lvl-1 js-nav-item"><a href="contacts.html" class="nav__link">Contacts</a></li>
+                        <li class="nav__item nav__item--lvl-1 js-nav-item"><a href="contacts.html" class="nav__link">Contacts</a></li>
                     </ul>
                 </nav>
-                <!-- END nav block--><a href="donate.html" class="btn--flat-rounded header__donate header__donate--v1">Donate</a>
+                <!--END nav block--><a href="donate.html" class="btn--flat-rounded header__donate header__donate--v1" style="display: none">Donate</a>
             </div>
         </div>
     </div>
@@ -522,8 +30,8 @@
                 <a style="margin-left: 32%;" href="index.html" class="header__logo">
                     <svg class="header__logo-svg">
                         <img
-                                src="/modules/themes/frontend.webelieve/assets/media-demo/events/logo.png" alt=""
-                                class="nav__event-img"/>
+                            src="/modules/themes/frontend.webelieve/assets/media-demo/events/logo.png" alt=""
+                            class="nav__event-img"/>
                     </svg>
                 </a>
                 <!-- BEGIN toolbar-->
@@ -533,7 +41,7 @@
                         <div class="dropdown-menu">
                             <div role="menu" class="toolbar__lang-dropdown"><a href="#" class="toolbar__lang-link">English</a><a href="#"
                                                                                                                                  class="toolbar__lang-link">Francais</a><a
-                                        href="#" class="toolbar__lang-link">Italian</a><a href="#" class="toolbar__lang-link">Russian</a></div>
+                                    href="#" class="toolbar__lang-link">Italian</a><a href="#" class="toolbar__lang-link">Russian</a></div>
                         </div>
                     </div>
                     <div class="dropdown toolbar__auth-item js-auth-item izhidden">
@@ -644,9 +152,9 @@
     <!-- BEGIN BEFORE MAIN SECTION-->
     <!-- END BEFORE MAIN SECTION-->
     <!-- BEGIN MAIN SECTION-->
-    <main class="main main--subpage main--events">
+    <main class="main">
         <!-- BEGIN BREADCRUMBS-->
-        <nav class="breadcrumbs">
+        <nav class="breadcrumbs" style="display: none">
             <div class="container">
                 <ul>
                     <li class="breadcrumbs__item"><a href="" class="breadcrumbs__link">Home</a></li>
@@ -661,31 +169,34 @@
         </header>
         <!-- END MAIN HEAD-->
         <div class="container">
-            <div class="main__wrap">
+            <div class="main__wrap" style="margin-top:0px !important; ">
                 <!-- BEGIN MAIN CONTENT-->
                 <div class="main__content">
                     <!-- BEGIN WIDGET-->
                     <div class="widget js-widget widget--card widget--panel" style="padding-left: 0;padding-right: 0">
 
-                        <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
+                        <div id="jssor_1"
+                             style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
                             <!-- Loading Screen -->
                             <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
-                                <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+                                <div
+                                    style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
                                 <div style="position:absolute;display:block;background:url('/modules/themes/frontend.webelieve/assets/img-slider/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;
                                 height:100%;"></div>
                             </div>
-                            <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+                            <div data-u="slides"
+                                 style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
                                 <div data-p="225.00" style="display: none;">
-                                    <img data-u="image" src="/modules/themes/frontend.webelieve/assets/img-slider/main/1.jpg" />
+                                    <img data-u="image" src="/modules/themes/frontend.webelieve/assets/img-slider/main/1.jpg"/>
                                 </div>
                                 <div data-p="225.00" data-po="80% 55%" style="display: none;">
-                                    <img data-u="image" src="/modules/themes/frontend.webelieve/assets/img-slider/main/2.png" />
+                                    <img data-u="image" src="/modules/themes/frontend.webelieve/assets/img-slider/main/2.png"/>
                                 </div>
                                 <div data-p="225.00" style="display: none;">
-                                    <img data-u="image" src="/modules/themes/frontend.webelieve/assets/img-slider/main/3.jpg" />
+                                    <img data-u="image" src="/modules/themes/frontend.webelieve/assets/img-slider/main/3.jpg"/>
                                 </div>
                                 <div data-p="225.00" style="display: none;">
-                                    <img data-u="image" src="/modules/themes/frontend.webelieve/assets/img-slider/main/4.jpg" />
+                                    <img data-u="image" src="/modules/themes/frontend.webelieve/assets/img-slider/main/4.jpg"/>
                                 </div>
                                 <a data-u="any" href="http://www.jssor.com/demos/full-width-slider.slider" style="display:none">Full Width Slider</a>
 
@@ -762,72 +273,19 @@
                             <div data-modifier="list" data-view="event" class="event event--list js-switch-view js-event">
                                 <div class="listing listing--list">
                                     @foreach($posts['data'] as $post)
-                                        <div class="listing__item">
-                                            <div class="event__item js-event-item">
-                                                <div class="event__preview">
+                                    <div class="listing__item">
+                                        <div class="event__item js-event-item">
+                                            <div class="event__preview">
                                                     <span class="event__status">
                                                         @if ($post['label_type'] == 1)
                                                             Khuyến mại
                                                         @endif
                                                     </span>
-                                                    <a
-                                                            href="{{url('izblog/believe/post') . '?post_id='. $post['id']}}"
-                                                            class="event__preview-link"><img
-                                                                src="{{url('imagecache/small_article') . '/' . $post['post_image_url']}}"
-                                                                alt="" class="event__preview-img"></a>
-                                                    <div class="event__links"><a class="event__link-item js-event-location">
-                                                            <svg class="event__link-svg">
-                                                                <use xlink:href="#icon-location"></use>
-                                                            </svg>
-                                                        </a>
-                                                        <div class="event__link-item event__link-item--share">
-                                                            <svg class="event__link-svg">
-                                                                <use xlink:href="#icon-share"></use>
-                                                            </svg>
-                                                            <div class="social social--share"><a href="#" class="social__item"><i
-                                                                            class="fa fa-facebook"></i></a><a href="#" class="social__item"><i
-                                                                            class="fa fa-twitter"></i></a><a href="#" class="social__item"><i
-                                                                            class="fa fa-google-plus"></i></a><a href="#" class="social__item"><i
-                                                                            class="fa fa-odnoklassniki"></i></a></div>
-                                                        </div>
-                                                        <a class="event__link-item">
-                                                            <svg class="event__link-svg">
-                                                                <use xlink:href="#icon-phone"></use>
-                                                            </svg>
-                                                        </a><a class="event__link-item js-event-mail">
-                                                            <svg class="event__link-svg">
-                                                                <use xlink:href="#icon-mail"></use>
-                                                            </svg>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                                <div class="event__details">
-                                                    <h3 class="event__name"><a href="event_details.html">{{$post['post_title']}}</a>
-                                                    </h3>
-                                                    <h5 class="event__organaizer">Danh Mục -<strong>{{$post['category_id']}}</strong></h5>
-                                                    <div class="event__info">
-                                                        <h6 class="event__location">
-                                                            {{$post['post_short_content']}}
-                                                        </h6>
-                                                    </div>
-                                                    <div class="clearfix"></div>
-                                                    <div class="event__price">$ {{$post['price']}} VND</div>
-                                                    <a href="{{url('izblog/believe/post') . '?post_id='. $post['id']}}" class="btn--link
-                                                    event__more">Đọc thêm</a>
-                                                </div>
-                                                <div class="clearfix"></div>
-                                                <div class="event__form js-form"></div>
-                                                <div class="event__map js-map"></div>
-                                            </div>
-                                        </div>
-                                    @endforeach
-                                    <div class="listing__item">
-                                        <div class="event__item js-event-item">
-                                            <div class="event__preview"><span class="event__status">Pass</span><a
-                                                        href="event_details.html"
-                                                        class="event__preview-link"><img
-                                                            src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-2.jpg"
-                                                            alt="" class="event__preview-img"></a>
+                                                <a
+                                                    href="{{url('izblog/believe/post') . '?post_id='. $post['id']}}"
+                                                    class="event__preview-link"><img
+                                                        src="{{url('imagecache/small_article') . '/' . $post['post_image_url']}}"
+                                                        alt="" class="event__preview-img"></a>
                                                 <div class="event__links"><a class="event__link-item js-event-location">
                                                         <svg class="event__link-svg">
                                                             <use xlink:href="#icon-location"></use>
@@ -838,10 +296,63 @@
                                                             <use xlink:href="#icon-share"></use>
                                                         </svg>
                                                         <div class="social social--share"><a href="#" class="social__item"><i
-                                                                        class="fa fa-facebook"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-twitter"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-google-plus"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-odnoklassniki"></i></a></div>
+                                                                    class="fa fa-facebook"></i></a><a href="#" class="social__item"><i
+                                                                    class="fa fa-twitter"></i></a><a href="#" class="social__item"><i
+                                                                    class="fa fa-google-plus"></i></a><a href="#" class="social__item"><i
+                                                                    class="fa fa-odnoklassniki"></i></a></div>
+                                                    </div>
+                                                    <a class="event__link-item">
+                                                        <svg class="event__link-svg">
+                                                            <use xlink:href="#icon-phone"></use>
+                                                        </svg>
+                                                    </a><a class="event__link-item js-event-mail">
+                                                        <svg class="event__link-svg">
+                                                            <use xlink:href="#icon-mail"></use>
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="event__details">
+                                                <h3 class="event__name"><a href="event_details.html">{{$post['post_title']}}</a>
+                                                </h3>
+                                                <h5 class="event__organaizer">Danh Mục -<strong>{{$post['category_id']}}</strong></h5>
+                                                <div class="event__info">
+                                                    <h6 class="event__location">
+                                                        {{$post['post_short_content']}}
+                                                    </h6>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                                <div class="event__price">$ {{$post['price']}} VND</div>
+                                                <a href="{{url('izblog/believe/post') . '?post_id='. $post['id']}}" class="btn--link
+                                                    event__more">Đọc thêm</a>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                            <div class="event__form js-form"></div>
+                                            <div class="event__map js-map"></div>
+                                        </div>
+                                    </div>
+                                    @endforeach
+                                    <div class="listing__item">
+                                        <div class="event__item js-event-item">
+                                            <div class="event__preview"><span class="event__status">Pass</span><a
+                                                    href="event_details.html"
+                                                    class="event__preview-link"><img
+                                                        src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-2.jpg"
+                                                        alt="" class="event__preview-img"></a>
+                                                <div class="event__links"><a class="event__link-item js-event-location">
+                                                        <svg class="event__link-svg">
+                                                            <use xlink:href="#icon-location"></use>
+                                                        </svg>
+                                                    </a>
+                                                    <div class="event__link-item event__link-item--share">
+                                                        <svg class="event__link-svg">
+                                                            <use xlink:href="#icon-share"></use>
+                                                        </svg>
+                                                        <div class="social social--share"><a href="#" class="social__item"><i
+                                                                    class="fa fa-facebook"></i></a><a href="#" class="social__item"><i
+                                                                    class="fa fa-twitter"></i></a><a href="#" class="social__item"><i
+                                                                    class="fa fa-google-plus"></i></a><a href="#" class="social__item"><i
+                                                                    class="fa fa-odnoklassniki"></i></a></div>
                                                     </div>
                                                     <a class="event__link-item">
                                                         <svg class="event__link-svg">
@@ -880,8 +391,8 @@
                                         <div class="event__item js-event-item">
                                             <div class="event__preview"><span class="event__status">Khuyến mãi</span><a href="event_details.html"
                                                                                                                         class="event__preview-link"><img
-                                                            src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-1.jpg"
-                                                            alt="" class="event__preview-img"></a>
+                                                        src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-1.jpg"
+                                                        alt="" class="event__preview-img"></a>
                                                 <div class="event__links"><a class="event__link-item js-event-location">
                                                         <svg class="event__link-svg">
                                                             <use xlink:href="#icon-location"></use>
@@ -892,10 +403,10 @@
                                                             <use xlink:href="#icon-share"></use>
                                                         </svg>
                                                         <div class="social social--share"><a href="#" class="social__item"><i
-                                                                        class="fa fa-facebook"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-twitter"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-google-plus"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-odnoklassniki"></i></a></div>
+                                                                    class="fa fa-facebook"></i></a><a href="#" class="social__item"><i
+                                                                    class="fa fa-twitter"></i></a><a href="#" class="social__item"><i
+                                                                    class="fa fa-google-plus"></i></a><a href="#" class="social__item"><i
+                                                                    class="fa fa-odnoklassniki"></i></a></div>
                                                     </div>
                                                     <a class="event__link-item">
                                                         <svg class="event__link-svg">
@@ -934,8 +445,8 @@
                                         <div class="event__item js-event-item">
                                             <div class="event__preview"><span class="event__status">passed</span><a href="event_details.html"
                                                                                                                     class="event__preview-link"><img
-                                                            src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-2.jpg"
-                                                            alt="" class="event__preview-img"></a>
+                                                        src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-2.jpg"
+                                                        alt="" class="event__preview-img"></a>
                                                 <div class="event__links"><a class="event__link-item js-event-location">
                                                         <svg class="event__link-svg">
                                                             <use xlink:href="#icon-location"></use>
@@ -946,10 +457,10 @@
                                                             <use xlink:href="#icon-share"></use>
                                                         </svg>
                                                         <div class="social social--share"><a href="#" class="social__item"><i
-                                                                        class="fa fa-facebook"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-twitter"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-google-plus"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-odnoklassniki"></i></a></div>
+                                                                    class="fa fa-facebook"></i></a><a href="#" class="social__item"><i
+                                                                    class="fa fa-twitter"></i></a><a href="#" class="social__item"><i
+                                                                    class="fa fa-google-plus"></i></a><a href="#" class="social__item"><i
+                                                                    class="fa fa-odnoklassniki"></i></a></div>
                                                     </div>
                                                     <a class="event__link-item">
                                                         <svg class="event__link-svg">
@@ -988,8 +499,8 @@
                                         <div class="event__item js-event-item">
                                             <div class="event__preview"><span class="event__status">khuyến mãi</span><a href="event_details.html"
                                                                                                                         class="event__preview-link"><img
-                                                            src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-1.jpg"
-                                                            alt="" class="event__preview-img"></a>
+                                                        src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-1.jpg"
+                                                        alt="" class="event__preview-img"></a>
                                                 <div class="event__links"><a class="event__link-item js-event-location">
                                                         <svg class="event__link-svg">
                                                             <use xlink:href="#icon-location"></use>
@@ -1000,10 +511,10 @@
                                                             <use xlink:href="#icon-share"></use>
                                                         </svg>
                                                         <div class="social social--share"><a href="#" class="social__item"><i
-                                                                        class="fa fa-facebook"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-twitter"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-google-plus"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-odnoklassniki"></i></a></div>
+                                                                    class="fa fa-facebook"></i></a><a href="#" class="social__item"><i
+                                                                    class="fa fa-twitter"></i></a><a href="#" class="social__item"><i
+                                                                    class="fa fa-google-plus"></i></a><a href="#" class="social__item"><i
+                                                                    class="fa fa-odnoklassniki"></i></a></div>
                                                     </div>
                                                     <a class="event__link-item">
                                                         <svg class="event__link-svg">
@@ -1042,8 +553,8 @@
                                         <div class="event__item js-event-item">
                                             <div class="event__preview"><span class="event__status">passed</span><a href="event_details.html"
                                                                                                                     class="event__preview-link"><img
-                                                            src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-3.jpg"
-                                                            alt="" class="event__preview-img"></a>
+                                                        src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-3.jpg"
+                                                        alt="" class="event__preview-img"></a>
                                                 <div class="event__links"><a class="event__link-item js-event-location">
                                                         <svg class="event__link-svg">
                                                             <use xlink:href="#icon-location"></use>
@@ -1054,10 +565,10 @@
                                                             <use xlink:href="#icon-share"></use>
                                                         </svg>
                                                         <div class="social social--share"><a href="#" class="social__item"><i
-                                                                        class="fa fa-facebook"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-twitter"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-google-plus"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-odnoklassniki"></i></a></div>
+                                                                    class="fa fa-facebook"></i></a><a href="#" class="social__item"><i
+                                                                    class="fa fa-twitter"></i></a><a href="#" class="social__item"><i
+                                                                    class="fa fa-google-plus"></i></a><a href="#" class="social__item"><i
+                                                                    class="fa fa-odnoklassniki"></i></a></div>
                                                     </div>
                                                     <a class="event__link-item">
                                                         <svg class="event__link-svg">
@@ -1096,8 +607,8 @@
                                         <div class="event__item js-event-item">
                                             <div class="event__preview"><span class="event__status">khuyến mãi</span><a href="event_details.html"
                                                                                                                         class="event__preview-link"><img
-                                                            src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-1.jpg"
-                                                            alt="" class="event__preview-img"></a>
+                                                        src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-1.jpg"
+                                                        alt="" class="event__preview-img"></a>
                                                 <div class="event__links"><a class="event__link-item js-event-location">
                                                         <svg class="event__link-svg">
                                                             <use xlink:href="#icon-location"></use>
@@ -1108,10 +619,10 @@
                                                             <use xlink:href="#icon-share"></use>
                                                         </svg>
                                                         <div class="social social--share"><a href="#" class="social__item"><i
-                                                                        class="fa fa-facebook"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-twitter"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-google-plus"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-odnoklassniki"></i></a></div>
+                                                                    class="fa fa-facebook"></i></a><a href="#" class="social__item"><i
+                                                                    class="fa fa-twitter"></i></a><a href="#" class="social__item"><i
+                                                                    class="fa fa-google-plus"></i></a><a href="#" class="social__item"><i
+                                                                    class="fa fa-odnoklassniki"></i></a></div>
                                                     </div>
                                                     <a class="event__link-item">
                                                         <svg class="event__link-svg">
@@ -1150,8 +661,8 @@
                                         <div class="event__item js-event-item">
                                             <div class="event__preview"><span class="event__status">passed</span><a href="event_details.html"
                                                                                                                     class="event__preview-link"><img
-                                                            src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-2.jpg"
-                                                            alt="" class="event__preview-img"></a>
+                                                        src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-2.jpg"
+                                                        alt="" class="event__preview-img"></a>
                                                 <div class="event__links"><a class="event__link-item js-event-location">
                                                         <svg class="event__link-svg">
                                                             <use xlink:href="#icon-location"></use>
@@ -1162,10 +673,10 @@
                                                             <use xlink:href="#icon-share"></use>
                                                         </svg>
                                                         <div class="social social--share"><a href="#" class="social__item"><i
-                                                                        class="fa fa-facebook"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-twitter"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-google-plus"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-odnoklassniki"></i></a></div>
+                                                                    class="fa fa-facebook"></i></a><a href="#" class="social__item"><i
+                                                                    class="fa fa-twitter"></i></a><a href="#" class="social__item"><i
+                                                                    class="fa fa-google-plus"></i></a><a href="#" class="social__item"><i
+                                                                    class="fa fa-odnoklassniki"></i></a></div>
                                                     </div>
                                                     <a class="event__link-item">
                                                         <svg class="event__link-svg">
@@ -1204,8 +715,8 @@
                                         <div class="event__item js-event-item">
                                             <div class="event__preview"><span class="event__status">khuyến mãi</span><a href="event_details.html"
                                                                                                                         class="event__preview-link"><img
-                                                            src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-1.jpg"
-                                                            alt="" class="event__preview-img"></a>
+                                                        src="/modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-1.jpg"
+                                                        alt="" class="event__preview-img"></a>
                                                 <div class="event__links"><a class="event__link-item js-event-location">
                                                         <svg class="event__link-svg">
                                                             <use xlink:href="#icon-location"></use>
@@ -1216,10 +727,10 @@
                                                             <use xlink:href="#icon-share"></use>
                                                         </svg>
                                                         <div class="social social--share"><a href="#" class="social__item"><i
-                                                                        class="fa fa-facebook"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-twitter"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-google-plus"></i></a><a href="#" class="social__item"><i
-                                                                        class="fa fa-odnoklassniki"></i></a></div>
+                                                                    class="fa fa-facebook"></i></a><a href="#" class="social__item"><i
+                                                                    class="fa fa-twitter"></i></a><a href="#" class="social__item"><i
+                                                                    class="fa fa-google-plus"></i></a><a href="#" class="social__item"><i
+                                                                    class="fa fa-odnoklassniki"></i></a></div>
                                                     </div>
                                                     <a class="event__link-item">
                                                         <svg class="event__link-svg">
@@ -1349,7 +860,7 @@
                         <div class="widget__content">
                             <div class="social social--footer"><a href="#" class="social__item"><i class="fa fa-facebook"></i></a><a href="#"
                                                                                                                                      class="social__item"><i
-                                            class="fa fa-twitter"></i></a><a href="#" class="social__item"><i class="fa fa-google-plus"></i></a></div>
+                                        class="fa fa-twitter"></i></a><a href="#" class="social__item"><i class="fa fa-google-plus"></i></a></div>
                         </div>
                         <!-- END WIDGET CONTENT-->
                     </div>

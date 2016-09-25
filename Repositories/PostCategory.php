@@ -200,7 +200,7 @@ class PostCategory extends IzObject {
         $allChild = $this->getRoot()->getDescendants();
         $data     = [];
         foreach ($allChild as $item) {
-            $data [] = [
+            $data [$item->id] = [
                 'id'    => $item->id,
                 'label' => $item->name
             ];

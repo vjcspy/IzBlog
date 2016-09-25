@@ -13,16 +13,37 @@ use Modules\IzCore\Repositories\Theme\View\AdditionViewInterface;
 
 class DefaultLayout implements AdditionViewInterface {
 
+
+    const PAGE_SIZE = 5;
+    /**
+     * @var \Illuminate\Http\Request
+     */
     private $request;
 
+    /**
+     * @var \Modules\IzBlog\Entities\Post
+     */
     private $post;
+    /**
+     * @var \Modules\IzBlog\Repositories\PostCategory
+     */
+    private $postCategory;
 
+    /**
+     * DefaultLayout constructor.
+     *
+     * @param \Illuminate\Http\Request                  $request
+     * @param \Modules\IzBlog\Entities\Post             $post
+     * @param \Modules\IzBlog\Repositories\PostCategory $postCategory
+     */
     public function __construct(
         \Illuminate\Http\Request $request,
-        \Modules\IzBlog\Entities\Post $post
+        \Modules\IzBlog\Entities\Post $post,
+        \Modules\IzBlog\Repositories\PostCategory $postCategory
     ) {
-        $this->post    = $post;
-        $this->request = $request;
+        $this->postCategory = $postCategory;
+        $this->post         = $post;
+        $this->request      = $request;
     }
 
     /**
@@ -38,15 +59,24 @@ class DefaultLayout implements AdditionViewInterface {
     public function handle() {
         // TODO: Implement handle() method.
         $requestData = $this->getRequest()->all();
+        $builder     = $this->getPost()->query();
+
+        /*add filter categories*/
+        if (isset($requestData['categoryId'])) {
+            $builder->where('category_id', $requestData['categoryId']);
+        }
+
+        /* add Paging*/
         if (isset($requestData['page'])) {
-            $builder = $this->getPost()->query()->orderBy('created_at', 'desc')->paginate(2, null, null, $requestData['page']);
+            $builder = $builder->paginate(self::PAGE_SIZE, null, null, $requestData['page']);
         }
         else {
-            $builder = $this->getPost()->query()->orderBy('created_at', 'desc')->paginate(2, null, null, 1);
+            $builder = $builder->paginate(self::PAGE_SIZE, null, null, 1);
         }
 
         return [
-            'posts' => $builder->toArray(),
+            'posts'      => $builder->toArray(),
+            'categories' => $this->getCategoriesData()
         ];
     }
 
@@ -55,5 +85,9 @@ class DefaultLayout implements AdditionViewInterface {
      */
     public function getRequest() {
         return $this->request;
+    }
+
+    protected function getCategoriesData() {
+        return $this->postCategory->getAllChildren();
     }
 }

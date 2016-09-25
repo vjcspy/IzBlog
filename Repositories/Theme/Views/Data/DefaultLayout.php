@@ -14,7 +14,7 @@ use Modules\IzCore\Repositories\Theme\View\AdditionViewInterface;
 class DefaultLayout implements AdditionViewInterface {
 
 
-    const PAGE_SIZE = 5;
+    const PAGE_SIZE = 10;
     /**
      * @var \Illuminate\Http\Request
      */
@@ -28,6 +28,7 @@ class DefaultLayout implements AdditionViewInterface {
      * @var \Modules\IzBlog\Repositories\PostCategory
      */
     private $postCategory;
+    private $_requestData;
 
     /**
      * DefaultLayout constructor.
@@ -58,25 +59,27 @@ class DefaultLayout implements AdditionViewInterface {
      */
     public function handle() {
         // TODO: Implement handle() method.
-        $requestData = $this->getRequest()->all();
         $builder     = $this->getPost()->query();
-
+        $requestData = $this->getRequestData();
         /*add filter categories*/
-        if (isset($requestData['categoryId'])) {
+        if (isset($requestData['categoryId']) && !!$requestData['categoryId']) {
             $builder->where('category_id', $requestData['categoryId']);
         }
 
         /* add Paging*/
-        if (isset($requestData['page'])) {
+        if (isset($requestData['page']) && !!$requestData['page']) {
             $builder = $builder->paginate(self::PAGE_SIZE, null, null, $requestData['page']);
         }
         else {
             $builder = $builder->paginate(self::PAGE_SIZE, null, null, 1);
         }
+        $posts = $builder->toArray();
 
         return [
-            'posts'      => $builder->toArray(),
-            'categories' => $this->getCategoriesData()
+            'posts'           => $posts,
+            'categories'      => $this->getCategoriesData(),
+            'numOfPage'       => $this->getPagesNumber($posts),
+            'currentCategory' => (isset($requestData['categoryId']) && !!$requestData['categoryId']) ? $requestData['categoryId'] : ''
         ];
     }
 
@@ -87,7 +90,45 @@ class DefaultLayout implements AdditionViewInterface {
         return $this->request;
     }
 
+    /**
+     * Lay het tat ca categories
+     *
+     * @return array
+     */
     protected function getCategoriesData() {
         return $this->postCategory->getAllChildren();
+    }
+
+    /**
+     * @param $post
+     *
+     * @return array
+     */
+    protected function getPagesNumber($post) {
+        if ((count($post) % self::PAGE_SIZE) > 0)
+            $numOfPost = floor($post['total'] / self::PAGE_SIZE) + 1;
+        else
+            $numOfPost = floor($post['total'] / self::PAGE_SIZE);
+        $data = [];
+        for ($i = 1; $i <= $numOfPost; $i++) {
+            if (isset($this->getRequestData()['page']) && $this->getRequestData()['page'] == $i)
+                $data[$i] = ['page' => $i, 'active' => true];
+            else
+                $data[$i] = ['page' => $i, 'active' => $i == 1];
+            if ($i > 3)
+                $i = $numOfPost - 1;
+        }
+
+        return $data;
+    }
+
+    /**
+     * @return array
+     */
+    private function getRequestData() {
+        if (is_null($this->_requestData))
+            $this->_requestData = $this->getRequest()->all();
+
+        return $this->_requestData;
     }
 }

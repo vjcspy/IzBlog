@@ -308,7 +308,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="event__details">
-                                                    <h3 class="event__name"><a href="{{url('izblog/believe/post') . '?post_id='. $post['id']}}">{{$post['post_title']}}</a>
+                                                    <h3 class="event__name"><a
+                                                                href="{{url('izblog/believe/post') . '?post_id='. $post['id']}}">{{$post['post_title']}}</a>
                                                     </h3>
                                                     <h5 class="event__organaizer">Danh Mục
                                                         -<strong>{{$categories[$post['category_id']]['label']}}</strong></h5>
@@ -335,19 +336,19 @@
                     </div>
                     <!-- END WIDGET-->
                     <!-- BEGIN PAGINATION-->
-                    <nav class="pagination"><a class="pagination__btn">
+                    <nav class="pagination"><a style="display: none" class="pagination__btn">
                             <svg class="pagination__btn-svg">
                                 <use xlink:href="#icon-arrow-left"></use>
                             </svg>
                             <span class="pagination__btn-span">Trang trước</span></a>
                         <ul class="pagination__pages">
-                            <li><a href="#">1</a></li>
-                            <li class="active"><span>2</span></li>
-                            <li><a href="#">3</a></li>
-                            <li><span>...</span></li>
-                            <li><a href="#">15</a></li>
+                            @foreach($numOfPage as $page)
+                                <li><a class="@if($page['active']) active @endif" href="{{url('izblog/believe')
+                                . '?page='.$page['page'] . '&categoryId='. $currentCategory}}"><span>{{$page['page']}}</span></a>
+                                </li>
+                            @endforeach
                         </ul>
-                        <a class="pagination__btn"><span class="pagination__btn-span">Trang tiếp theo</span>
+                        <a style="display: none" class="pagination__btn"><span class="pagination__btn-span">Trang tiếp theo</span>
                             <svg class="pagination__btn-svg">
                                 <use xlink:href="#icon-arrow-right"></use>
                             </svg>

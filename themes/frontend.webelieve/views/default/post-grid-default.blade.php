@@ -11,7 +11,7 @@
                 <!-- BEGIN nav block-->
                 <nav class="nav js-nav nav--v1">
                     <ul class="nav__list">
-                        <li class="nav__item nav__item--lvl-1 js-nav-item"><a href="{{url('izblog/believe')}}" class="nav__link">Home</a></li>
+                        <li class="nav__item nav__item--lvl-1 js-nav-item"><a href="{{url('izblog/believe')}}" class="nav__link">Trang Chủ</a></li>
                         @foreach($categories as $cat )
                             <li class="nav__item nav__item--lvl-1 js-nav-item"><a href="{{url('izblog/believe') . '?categoryId=' . $cat['id']}}"
                                                                                   class="nav__link">{{$cat['label']}}</a></li>

@@ -1,6 +1,6 @@
 <div class="box">
     <!-- BEGIN topbar-->
-    <div class="topbar js-topbar" style="display:none">
+    <div class="topbar js-topbar">
         <div class="container">
             <div class="topbar__row">
                 <button class="header__menu header__menu--mob js-menu-btn">
@@ -11,505 +11,13 @@
                 <!-- BEGIN nav block-->
                 <nav class="nav js-nav nav--v1">
                     <ul class="nav__list">
-                        <li class="nav__item nav__item--lvl-1 js-nav-item  has-children"><a href="index.html" class="nav__link">Home</a>
-                            <div class="nav__sub">
-                                <ul class="nav__list">
-                                    <li class="nav__item nav__item--lvl-sub"><a href="index.html" class="nav__link">Variation 1</a>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub"><a href="index_2.html" class="nav__link">Variation 2</a>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub"><a href="index_3.html" class="nav__link">Variation 3</a>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub"><a href="index_auth.html" class="nav__link">Slider &amp;
-                                            Authorization</a>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub  has-children"><a href="index.html" class="nav__link">Header
-                                            Variations</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="index.html" class="nav__link">Header 1</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="index_header_2.html" class="nav__link">Header 2</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="index_header_3.html" class="nav__link">Header 3</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="index_header_4.html" class="nav__link">Header 4</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="index_header_5.html" class="nav__link">Header 5</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="index_header_6.html" class="nav__link">Header 6</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav__item nav__item--lvl-1 js-nav-item  has-children"><a href="events_list.html" class="nav__link">Events</a>
-                            <div class="nav__sub">
-                                <ul class="nav__list">
-                                    <li class="nav__item nav__item--lvl-sub col-1 has-children"><a href="events_list.html" class="nav__link">Events
-                                            List</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="events_list.html" class="nav__link">Right
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="events_list--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="events_list--full.html" class="nav__link active">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub col-1 has-children"><a href="events_grid.html" class="nav__link">Events
-                                            Grid</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="events_grid.html" class="nav__link">Right
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="events_grid--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="events_grid--full.html" class="nav__link">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub col-1 has-children"><a href="event_details.html" class="nav__link">Event
-                                            Details</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="event_details.html" class="nav__link">Right
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="event_details--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="event_details--full.html" class="nav__link">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav__item nav__item--lvl-1 js-nav-item  has-children"><a href="sermons_list.html" class="nav__link">Sermons</a>
-                            <div class="nav__sub">
-                                <ul class="nav__list">
-                                    <li class="nav__item nav__item--lvl-sub col-1 has-children"><a href="sermons_list.html" class="nav__link">Sermon
-                                            List</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="sermons_list.html" class="nav__link">Right
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="sermons_list--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="sermons_list--full.html" class="nav__link">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub col-1 has-children"><a href="sermons_grid.html" class="nav__link">Sermon
-                                            Grid</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="sermons_grid.html" class="nav__link">Right
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="sermons_grid--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="sermons_grid--full.html" class="nav__link">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub  has-children"><a href="sermon_details.html" class="nav__link">Single
-                                            Sermon</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="sermon_details.html" class="nav__link">Right
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="sermon_details--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="sermon_details--full.html" class="nav__link">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav__item nav__item--lvl-1 js-nav-item nav__item--mega has-children"><a href="feature_rtl.html" class="nav__link">Mega
-                                Menu</a>
-                            <div class="nav__sub">
-                                <ul class="nav__list">
-                                    <li class="nav__group nav__group--event-item has-children"><a href="undefined.html"
-                                                                                                  class="nav__subtitle nav__subtitle--nobd">Next
-                                            coming event</a><a class="nav__event-preview"><img
-                                                    src="/modules/themes/frontend.webelieve/assets/media-demo/events/1.jpg" alt=""
-                                                    class="nav__event-img"/><span class="nav__event-hover">Events Calendar</span></a>
-                                        <h5 class="nav__event-title">We all want to raise our children.</h5>
-                                        <h6 class="nav__event-subtitle">Organizer - We Beleive Church</h6><a
-                                                class="nav__event-preview nav__event-preview--second"><img
-                                                    src="modules/themes/frontend.webelieve/assets/media-demo/events/390x290/event-2.jpg" alt=""
-                                                    class="nav__event-img"/><span
-                                                    class="nav__event-hover">Events Calendar</span></a>
-                                    </li>
-                                    <li class="nav__group nav__group--event-list has-children"><a href="undefined.html" class="nav__subtitle">khuyến mãi
-                                            event</a>
-                                        <ul class="nav__list">
-                                            <li class="nav__item nav__item--title event-list"><a href="event_details.html" class="nav__link">Don’t
-                                                    miss out on Gatew...</a><i class="nav__event-date">14 - 15 July, 2015</i></li>
-                                            <li class="nav__item nav__item--title event-list"><a href="event_details.html" class="nav__link">A
-                                                    powerfull life-changing ...</a><i class="nav__event-date">14 - 15 July, 2015</i></li>
-                                            <li class="nav__item nav__item--title event-list"><a href="event_details.html" class="nav__link">Build a
-                                                    fundation for Paren...</a><i class="nav__event-date">14 - 15 July, 2015</i></li>
-                                            <li class="nav__item nav__item--title event-list"><a href="event_details.html" class="nav__link">We all
-                                                    want to raise our chi...</a><i class="nav__event-date">14 - 15 July, 2015</i></li>
-                                            <li class="nav__item nav__item--title event-list"><a href="event_details.html" class="nav__link">Children
-                                                    are the future.</a><i class="nav__event-date">14 - 15 July, 2015</i></li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav__group group has-children"><a href="undefined.html" class="nav__subtitle">Features</a>
-                                        <ul class="nav__list">
-                                            <li class="nav__item nav__item--group"><a href="feature_rtl.html" class="nav__link">Feature Right to left
-                                                    (RTL)</a>
-                                            </li>
-                                            <li class="nav__item nav__item--group"><a href="feature_boxed.html" class="nav__link">Layout Boxed</a>
-                                            </li>
-                                            <li class="nav__item nav__item--group"><a href="feature_no_content.html" class="nav__link">Feature no
-                                                    content</a>
-                                            </li>
-                                            <li class="nav__item nav__item--group"><a href="feature_typography.html" class="nav__link">Typography</a>
-                                            </li>
-                                            <li class="nav__item nav__item--group"><a href="feature_bootstrap.html" class="nav__link">Twitter
-                                                    Bootstrap</a>
-                                            </li>
-                                            <li class="nav__item nav__item--group"><a href="feature_ui.html" class="nav__link">Feature UI</a>
-                                            </li>
-                                            <li class="nav__item nav__item--group"><a href="email.html" class="nav__link">Email template</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav__group group has-children"><a href="undefined.html" class="nav__subtitle">Custom menu</a>
-                                        <ul class="nav__list">
-                                            <li class="nav__item nav__item--group"><a href="about.html" class="nav__link">About Us</a>
-                                            </li>
-                                            <li class="nav__item nav__item--group"><a href="contacts.html" class="nav__link">Contact Us</a>
-                                            </li>
-                                            <li class="nav__item nav__item--group"><a href="error_404.html" class="nav__link">404 Page</a>
-                                            </li>
-                                            <li class="nav__item nav__item--group"><a href="user_login.html" class="nav__link">User login</a>
-                                            </li>
-                                            <li class="nav__item nav__item--group"><a href="user_register.html" class="nav__link">User register</a>
-                                            </li>
-                                            <li class="nav__item nav__item--group"><a href="user_restore_pass.html" class="nav__link">User restore
-                                                    Pass</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav__item nav__item--lvl-1 js-nav-item  has-children"><a href="causes_list.html" class="nav__link">Causes</a>
-                            <div class="nav__sub">
-                                <ul class="nav__list">
-                                    <li class="nav__item nav__item--lvl-sub col-1 has-children"><a href="causes_list.html" class="nav__link">Causes
-                                            List</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="causes_list.html" class="nav__link">Right
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="causes_list--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="causes_list--full.html" class="nav__link">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub col-1 has-children"><a href="causes_grid.html" class="nav__link">Causes
-                                            Grid</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="causes_grid.html" class="nav__link">Right
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="causes_grid--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="causes_grid--full.html" class="nav__link">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub"><a href="causes_list--donate.html" class="nav__link">Causes Donate
-                                            Variation</a>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub  has-children"><a href="cause_details.html" class="nav__link">Single
-                                            Causes</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="cause_details.html" class="nav__link">Right
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="cause_details--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="cause_details--full.html" class="nav__link">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav__item nav__item--lvl-1 js-nav-item  has-children"><a href="gallery.html" class="nav__link">Gallery</a>
-                            <div class="nav__sub">
-                                <ul class="nav__list">
-                                    <li class="nav__item nav__item--lvl-sub  has-children"><a href="gallery.html" class="nav__link">Standart</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub  has-children"><a href="gallery.html"
-                                                                                                          class="nav__link">Grid</a>
-                                                    <div class="nav__sub nav__sub--lvl-1">
-                                                        <ul class="nav__list">
-                                                            <li class="nav__item nav__item--lvl-sub"><a href="gallery--2.html" class="nav__link">2
-                                                                    Columns</a></li>
-                                                            <li class="nav__item nav__item--lvl-sub"><a href="gallery.html" class="nav__link">3
-                                                                    Columns</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub  has-children"><a href="gallery--masonry.html"
-                                                                                                          class="nav__link">Masonry</a>
-                                                    <div class="nav__sub nav__sub--lvl-1">
-                                                        <ul class="nav__list">
-                                                            <li class="nav__item nav__item--lvl-sub"><a href="gallery--masonry-2.html"
-                                                                                                        class="nav__link">2 Columns</a></li>
-                                                            <li class="nav__item nav__item--lvl-sub"><a href="gallery--masonry.html"
-                                                                                                        class="nav__link">3 Columns</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub  has-children"><a href="gallery_caption.html" class="nav__link">With
-                                            caption</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub  has-children"><a href="gallery_caption.html"
-                                                                                                          class="nav__link">Grid</a>
-                                                    <div class="nav__sub nav__sub--lvl-1">
-                                                        <ul class="nav__list">
-                                                            <li class="nav__item nav__item--lvl-sub"><a href="gallery_caption--2.html"
-                                                                                                        class="nav__link">2 Columns</a></li>
-                                                            <li class="nav__item nav__item--lvl-sub"><a href="gallery_caption.html" class="nav__link">3
-                                                                    Columns</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub  has-children"><a href="gallery_caption--masonry.html"
-                                                                                                          class="nav__link">Masonry</a>
-                                                    <div class="nav__sub nav__sub--lvl-1">
-                                                        <ul class="nav__list">
-                                                            <li class="nav__item nav__item--lvl-sub"><a href="gallery_caption--masonry-2.html"
-                                                                                                        class="nav__link">2 Columns</a></li>
-                                                            <li class="nav__item nav__item--lvl-sub"><a href="gallery_caption--masonry.html"
-                                                                                                        class="nav__link">3 Columns</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub"><a href="gallery_details.html" class="nav__link">Gallery details</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav__item nav__item--lvl-1 js-nav-item  has-children"><a href="shop.html" class="nav__link">Shop</a>
-                            <div class="nav__sub">
-                                <ul class="nav__list">
-                                    <li class="nav__item nav__item--lvl-sub"><a href="shop.html" class="nav__link">Products List</a>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub"><a href="product.html" class="nav__link">Product Page</a>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub"><a href="cart.html" class="nav__link">Cart</a>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub"><a href="checkout.html" class="nav__link">Checkout</a>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub"><a href="account.html" class="nav__link">Account</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav__item nav__item--lvl-1 js-nav-item  has-children"><a href="about.html" class="nav__link">About Us</a>
-                            <div class="nav__sub">
-                                <ul class="nav__list">
-                                    <li class="nav__item nav__item--lvl-sub  has-children"><a href="community.html" class="nav__link">Our
-                                            community</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="community.html" class="nav__link">Right Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="community--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="community--full.html" class="nav__link">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub  has-children"><a href="community_member.html"
-                                                                                              class="nav__link">Member</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="community_member.html" class="nav__link">Right
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="community_member--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="community_member--full.html" class="nav__link">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub  has-children"><a href="about.html" class="nav__link">About Us</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="about.html" class="nav__link">Right Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="about--left.html" class="nav__link">Left Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="about--full.html" class="nav__link">No Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub"><a href="new_here.html" class="nav__link">New here?</a>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub"><a href="calendar.html" class="nav__link">Calendar</a>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub"><a href="donate.html" class="nav__link">Donate</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav__item nav__item--lvl-1 js-nav-item  has-children"><a href="blog_list.html" class="nav__link">Blog</a>
-                            <div class="nav__sub">
-                                <ul class="nav__list">
-                                    <li class="nav__item nav__item--lvl-sub col-1 has-children"><a href="blog_list.html" class="nav__link">Blog
-                                            List</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_list.html" class="nav__link">Right Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_list--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_list--full.html" class="nav__link">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub col-1 has-children"><a href="blog_grid.html" class="nav__link">Blog
-                                            Grid</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_grid.html" class="nav__link">Right Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_grid--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_grid--full.html" class="nav__link">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub col-1 has-children"><a href="blog_masonry.html" class="nav__link">Blog
-                                            Masonry</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_masonry.html" class="nav__link">Right
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_masonry--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_masonry--full.html" class="nav__link">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub col-1 has-children"><a href="blog_details.html" class="nav__link">Blog
-                                            Header Variations</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_details.html" class="nav__link">Header 1</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_header_2.html" class="nav__link">Header 2</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_header_3.html" class="nav__link">Header 3</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_header_4.html" class="nav__link">Header 4</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_header_5.html" class="nav__link">Header 5</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_header_6.html" class="nav__link">Header 6</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__item nav__item--lvl-sub col-1 has-children"><a href="blog_details.html" class="nav__link">Blog
-                                            Details</a>
-                                        <div class="nav__sub nav__sub--lvl-1">
-                                            <ul class="nav__list">
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_details.html" class="nav__link">Right
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_details--left.html" class="nav__link">Left
-                                                        Sidebar</a>
-                                                </li>
-                                                <li class="nav__item nav__item--lvl-sub"><a href="blog_details--full.html" class="nav__link">No
-                                                        Sidebar</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav__item nav__item--lvl-1 js-nav-item"><a href="contacts.html" class="nav__link">Contacts</a>
-                        </li>
+                        <li class="nav__item nav__item--lvl-1 js-nav-item"><a href="{{url('izblog/believe')}}" class="nav__link">Trang Chủ</a></li>
+                        @foreach($categories as $cat )
+                            <li class="nav__item nav__item--lvl-1 js-nav-item"><a href="{{url('izblog/believe') . '?categoryId=' . $cat['id']}}"
+                                                                                  class="nav__link">{{$cat['label']}}</a></li>
+                        @endforeach
                     </ul>
                 </nav>
-                <!-- END nav block--><a href="donate.html" class="btn--flat-rounded header__donate header__donate--v1">Donate</a>
             </div>
         </div>
     </div>
@@ -698,7 +206,7 @@
                     </div>
                     <!-- END WIDGET-->
                     <!-- BEGIN WIDGET-->
-                    <div class="widget js-widget widget--card">
+                    <div class="widget js-widget widget--card" style="display: none">
                         <!-- END WIDGET HEADER-->
                         <!-- BEGIN WIDGET CONTENT-->
                         <div class="widget__content">
@@ -782,7 +290,7 @@
                     </div>
                     <!-- END WIDGET-->
                     <!-- BEGIN WIDGET-->
-                    <div class="widget js-widget widget--card">
+                    <div class="widget js-widget widget--card" style="display: none">
                         <!-- BEGIN WIDGET HEADER-->
                         <div class="widget__header">
                             <h2 class="widget__title js-widget-title">Để lại nhận xét</h2>
@@ -874,7 +382,8 @@
                         <!-- BEGIN WIDGET CONTENT-->
                         <div class="widget__content">
                             <div class="textwidget">
-                                <p>Xăm phun là một trong những phương pháp xăm tạm thời, hay chính xác hơn là phun/vẽ màu theo mẫu lên da. Xăm phun có thể sử dụng được cho tất cả mọi người và mọi loại da. - Ưu điểm của xăm phun? Ưu điểm lớn nhất và dễ thấy nhất của xăm phun là hình xăm chỉ tồn tại trong thời gian ngắn</p>
+                                <p>Xăm phun là một trong những phương pháp xăm tạm thời, hay chính xác hơn là phun/vẽ màu theo mẫu lên da. Xăm phun có
+                                    thể sử dụng được cho tất cả mọi người và mọi loại da.</p>
                             </div>
                         </div>
                         <!-- END WIDGET CONTENT-->
@@ -902,7 +411,34 @@
                     <div class="widget js-widget widget--footer">
                         <!-- BEGIN WIDGET HEADER-->
                         <div class="widget__header">
-                            <h4 class="widget__title js-widget-title">Địa chỉ của chúng tôi</h4>
+                            <h4 class="widget__title js-widget-title">Địa chỉ tại Thái Bình</h4>
+                        </div>
+                        <!-- END WIDGET HEADER-->
+                        <!-- BEGIN WIDGET CONTENT-->
+                        <div class="widget__content">
+                            <address class="address address--footer">
+                                <dl class="address__list">
+                                    <dt class="address__list-icon"><i class="fa fa-map-marker"></i></dt>
+                                    <dd class="address__list-body">
+                                        48 phố Quang Trung F.Trần Hưng Đạo.
+                                    </dd>
+                                    <dt class="address__list-icon"><i class="fa fa-phone"></i></dt>
+                                    <dd class="address__list-body">0437150736|01672635165 - Hotline : 0912211493 có Zalo</dd>
+                                    <dt class="address__list-icon"><i class="fa fa-envelope-o"></i></dt>
+                                    <dd class="address__list-body"><a href=" thammyhoaky@gmail.com"> thammyhoaky@gmail.com</a></dd>
+                                </dl>
+                            </address>
+                        </div>
+                        <!-- END WIDGET CONTENT-->
+                    </div>
+                    <!-- END WIDGET-->
+                </div>
+                <div class="footer__column">
+                    <!-- BEGIN WIDGET-->
+                    <div class="widget js-widget widget--footer">
+                        <!-- BEGIN WIDGET HEADER-->
+                        <div class="widget__header">
+                            <h4 class="widget__title js-widget-title">Địa chỉ tại Hà Nội</h4>
                         </div>
                         <!-- END WIDGET HEADER-->
                         <!-- BEGIN WIDGET CONTENT-->
@@ -914,7 +450,34 @@
                                         16D phố Đường Thành, F.Cửa Đông, Hoàn Kiếm, Hà Nội
                                     </dd>
                                     <dt class="address__list-icon"><i class="fa fa-phone"></i></dt>
-                                    <dd class="address__list-body">0437150736|01672635165 - Hotline : 0912211493 có Zalo </dd>
+                                    <dd class="address__list-body">0437150736|01672635165 - Hotline : 0912211493 có Zalo</dd>
+                                    <dt class="address__list-icon"><i class="fa fa-envelope-o"></i></dt>
+                                    <dd class="address__list-body"><a href=" thammyhoaky@gmail.com"> thammyhoaky@gmail.com</a></dd>
+                                </dl>
+                            </address>
+                        </div>
+                        <!-- END WIDGET CONTENT-->
+                    </div>
+                    <!-- END WIDGET-->
+                </div>
+                <div class="footer__column">
+                    <!-- BEGIN WIDGET-->
+                    <div class="widget js-widget widget--footer">
+                        <!-- BEGIN WIDGET HEADER-->
+                        <div class="widget__header">
+                            <h4 class="widget__title js-widget-title">Địa chỉ tại Hải Dương</h4>
+                        </div>
+                        <!-- END WIDGET HEADER-->
+                        <!-- BEGIN WIDGET CONTENT-->
+                        <div class="widget__content">
+                            <address class="address address--footer">
+                                <dl class="address__list">
+                                    <dt class="address__list-icon"><i class="fa fa-map-marker"></i></dt>
+                                    <dd class="address__list-body">
+                                        11A Tuy Hòa
+                                    </dd>
+                                    <dt class="address__list-icon"><i class="fa fa-phone"></i></dt>
+                                    <dd class="address__list-body">0437150736|01672635165 - Hotline : 0912211493 có Zalo</dd>
                                     <dt class="address__list-icon"><i class="fa fa-envelope-o"></i></dt>
                                     <dd class="address__list-body"><a href=" thammyhoaky@gmail.com"> thammyhoaky@gmail.com</a></dd>
                                 </dl>

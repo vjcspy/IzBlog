@@ -153,7 +153,7 @@
     <!-- BEGIN MAIN SECTION-->
     <main class="main main--subpage main--blog">
         <!-- BEGIN BREADCRUMBS-->
-        <nav class="breadcrumbs">
+        <nav class="breadcrumbs" style="display: none">
             <div class="container">
                 <ul>
                     <li class="breadcrumbs__item"><a href="" class="breadcrumbs__link">Home</a></li>

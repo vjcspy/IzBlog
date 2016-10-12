@@ -315,7 +315,7 @@
                                                         -<strong>{{$categories[$post['category_id']]['label']}}</strong></h5>
                                                     <div class="event__info">
                                                         <h6 class="event__location">
-                                                            {{$post['post_short_content']}}
+                                                            {!! $post['post_short_content']  !!}
                                                         </h6>
                                                     </div>
                                                     <div class="clearfix"></div>

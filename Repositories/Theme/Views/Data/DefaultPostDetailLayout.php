@@ -55,7 +55,9 @@ class DefaultPostDetailLayout implements AdditionViewInterface {
         // TODO: Implement handle() method.
         $requestData = $this->getRequest()->all();
         if (isset($requestData['post_id'])) {
-            $postData = $this->getPostManagement()->getById($requestData['post_id'])->toArray();
+            $postData               = $this->getPostManagement()->getById($requestData['post_id'])->toArray();
+            $phpdate                = strtotime($postData['created_at']);
+            $postData['created_at'] = date('Y-m-d H:i:s', $phpdate);
         }
         else
             $postData = false;
